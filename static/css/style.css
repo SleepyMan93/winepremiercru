@@ -1,4 +1,56 @@
+/* Global */
+body {
+    font-family: 'Merriweather Sans', sans-serif;  
+}
+
+.yellow {
+   color: #E1C27A; 
+}
+
+.purple {
+    color: #643C7C;
+}
+
+.red {
+    color: #B66868;
+}
+
+.beige {
+    color: #F4E8DD;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 4px 5px 8px -3px rgba(0,0,0,0.61); 
+    box-shadow: 4px 5px 8px -3px rgba(0,0,0,0.61);
+}
+
+.red-button {
+    background-color: #B66868;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 /* Navbar */
 .navbar {
     box-shadow: 0px 1px 10px 1px rgb(148 139 148 / 83%);
 }
+
+/* Sell Wine */
+
+.sell-wine {
+    display: flex;
+}
+
+.wine-graphic {
+    width: 100%;
+}
+
+.squish {
+    width: 70%;
+}
+
+/* Panels */
+
