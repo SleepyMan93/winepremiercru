@@ -80,8 +80,7 @@ body {
 }
 
 .button-center {
-    display: flex;
-    justify-content: center;
+    height: 9rem;
 }
 
 .big-title {
