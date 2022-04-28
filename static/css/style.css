@@ -41,6 +41,10 @@
     font-weight: 300;
 }
 
+.thin-info {
+    font-weight: 400;
+}
+
 .medium {
     font-weight: 500;
 }
@@ -59,9 +63,18 @@ body {
     font-family: 'EvolveSans', serif;  
 }
 
-.box-shadow {
-    -webkit-box-shadow: 4px 5px 8px -3px rgba(0,0,0,0.61); 
-    box-shadow: 4px 5px 8px -3px rgba(0,0,0,0.61);
+.box-shadow-red {
+    -webkit-box-shadow: 4px 5px 8px -3px rgba(195, 115, 115, 1); 
+    box-shadow: 4px 5px 8px -3px rgba(195, 115, 115, 1);
+}
+
+.box-shadow-beige {
+    -webkit-box-shadow: 4px 5px 8px -3px rgba(223, 202, 183, 1); 
+    box-shadow: 4px 5px 8px -3px rgba(223, 202, 183, 1);
+}
+
+.top-padding {
+    padding-top: 5rem;
 }
 
 .red-button {
@@ -136,12 +149,32 @@ body {
 }
 
 .white {
-    color: whitesmoke;
+    color: white;
+}
+
+.white-background {
+    background-color: white;
 }
 
 /* Navbar */
 .navbar {
     box-shadow: 0px 1px 10px 1px rgb(148 139 148 / 83%);
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.nav-logo {
+    width: auto;
+    height: 4rem;
+    margin-right: 1rem;
 }
 
 /* Sell Wine */
@@ -167,7 +200,6 @@ body {
 }
 
 .cards {
-    background-color: #F4E8DD;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
