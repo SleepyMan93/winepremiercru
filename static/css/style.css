@@ -177,6 +177,11 @@ body {
     margin-right: 1rem;
 }
 
+.testimonial-logo {
+    width: auto;
+    height: 4rem;
+}
+
 /* Sell Wine */
 
 .sell-wine {
@@ -238,21 +243,33 @@ body {
 }
 
 .circle {
-    width: 23%;
-    height: 17rem;
+    width: auto;
+    height: auto;
+    padding: 8rem;
     border-radius: 50%;
     background-color: #643C7C;
     position: absolute;
-    right: 20rem;
+    margin-left: 25%;
     border: 8px solid white;
 }
 
 .circle-oppo {
-    width: 23%;
-    height: 17rem;
+    width: auto;
+    height: auto;
+    padding: 8rem;
     border-radius: 50%;
     background-color: #643C7C;
     position: absolute;
-    left: 20rem;
+    margin-right: 25%;
     border: 8px solid white;
+}
+
+/* Carousel */
+
+.carousel-control-next {
+    right: -50px;
+}
+
+.carousel-control-prev {
+    left: -50px;
 }
