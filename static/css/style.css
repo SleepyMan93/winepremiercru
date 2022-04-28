@@ -339,3 +339,7 @@ body {
 .blob-image {
     width: 100%;
 }
+
+.blob-bottom {
+    transform: scaleY(-1);
+}
