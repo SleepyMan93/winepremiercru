@@ -135,6 +135,10 @@ body {
     margin-left: -8rem;
 }
 
+.top {
+    z-index: 2;
+}
+
 /* Colours */
 
 .yellow {
@@ -324,22 +328,21 @@ body {
 
 /* Testimonial */
 
-.top-layer {
-    z-index: 32;
-    position: relative;
-}
-
 .blob {
-    margin-top: -15rem;
-    background-image: url(/static/images/homepage/blob-background.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
+    display: flex;
+    align-items: flex-end;
+    padding-right: var(--bs-gutter-x,0rem);
+    padding-left: var(--bs-gutter-x,0rem);
 }
 
-.blob-image {
-    width: 100%;
+.blob-holder {
+    position: absolute;
 }
 
 .blob-bottom {
     transform: scaleY(-1);
+}
+
+.image-holder img {
+    width: 63%;
 }
