@@ -74,7 +74,7 @@ body {
 }
 
 .top-padding {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 .red-button {
@@ -125,6 +125,14 @@ body {
 
 .minus-margin {
     margin-top: -10rem;
+}
+
+.small-minus-margin {
+    margin-top: -1rem;
+}
+
+.top-margin {
+    margin-top: 5rem;
 }
 
 .bottom-margin {
@@ -239,6 +247,7 @@ body {
 /* Panels */
 .top-blob {
     transform: rotate(180deg);
+    margin-bottom: -1rem;
 }
 
 .panels {
