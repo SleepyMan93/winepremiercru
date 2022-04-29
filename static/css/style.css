@@ -87,6 +87,11 @@ body {
     color: white;
 }
 
+.light-purple-button {
+    background-color: #d2b2e4;
+    color: white;
+}
+
 .btn {
     font-weight: 500;
     font-size: 1.3rem;
@@ -137,6 +142,10 @@ body {
 
 .top {
     z-index: 2;
+}
+
+.big-padding {
+    padding-left: 15rem;
 }
 
 /* Colours */
@@ -344,5 +353,17 @@ body {
 }
 
 .image-holder img {
-    width: 63%;
+    width: 95%;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.buttons-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
