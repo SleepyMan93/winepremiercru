@@ -410,4 +410,23 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    height: 20rem;
+    padding: 0;
 }
+
+.wine-placeholder {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin-top: 45rem;
+}
+
+.wine-image-holder img {
+    width: 100%;
+}
+
+#sellBlob {
+    margin-bottom: 30rem;
+}
+
