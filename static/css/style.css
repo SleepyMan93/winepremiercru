@@ -218,6 +218,7 @@ body {
 /* Navbar */
 .navbar {
     box-shadow: 0px 1px 10px 1px rgb(148 139 148 / 83%);
+    z-index: 3;
 }
 
 .navbar-brand {
@@ -441,5 +442,11 @@ body {
 #sellBlob {
     margin-bottom: 30rem;
     margin-top: -8rem;
+}
+
+.horizontal-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
