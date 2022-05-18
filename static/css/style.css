@@ -124,7 +124,7 @@ body {
 }
 
 .minus-margin {
-    margin-top: -10rem;
+    margin-top: -11rem;
 }
 
 .mid-minus-margin {
@@ -233,6 +233,10 @@ body {
 
 .brown-background {
     background-color: #c89090;
+}
+
+.brown-fill {
+    fill: #c89090;
 }
 
 .pink-background {
