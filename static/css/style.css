@@ -168,6 +168,10 @@ body {
     padding-left: 14rem;
 }
 
+.mid-padding {
+    padding-left: 8rem;
+}
+
 .horizontal-center {
     display: flex;
     flex-direction: row;
@@ -181,6 +185,13 @@ body {
     justify-content: end;
     align-items: center;
 }
+
+.height-inherit {
+    height: inherit;
+}
+
+
+
 
 /* Colours */
 
@@ -200,6 +211,14 @@ body {
     background-color: #643C7C;
 }
 
+.smoke {
+    color: #f8efef;
+}
+
+.smoke-background {
+    background-color: #f8efef;
+}
+
 .red {
     color: #B66868;
 }
@@ -210,6 +229,18 @@ body {
 
 .red-opacity {
     background-color: #b66868cb;
+}
+
+.brown-background {
+    background-color: #c89090;
+}
+
+.pink-background {
+    background-color: #ddbaba;
+}
+
+.pink-fill {
+    fill: #ddbaba;
 }
 
 .beige {
@@ -491,6 +522,43 @@ body {
     height: 7rem;
 }
 
+
+/* How It Works */
+
+.how-holder {
+    display: flex;
+    height: 50rem;
+}
+
+.how-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50rem;
+    padding: 0;
+    margin-bottom: 5rem
+}
+
+.how-img {
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+}
+
+.how-card {
+    padding: 4rem 10rem;
+}
+
+#howBlob {
+    margin-top: -15rem;
+}
+
+.top-card {
+    position: relative;
+    z-index: 5;
+}
 
 
 /* Media Queries */
