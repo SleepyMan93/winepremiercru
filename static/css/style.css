@@ -127,6 +127,10 @@ body {
     margin-top: -10rem;
 }
 
+.mid-minus-margin {
+    margin-top: -3rem;
+}
+
 .small-minus-margin {
     margin-top: -1rem;
 }
@@ -137,6 +141,10 @@ body {
 
 .top-margin {
     margin-top: 5rem;
+}
+
+.big-top-margin {
+    margin-top: 10rem
 }
 
 .bottom-margin {
@@ -428,11 +436,7 @@ body {
     align-items: center;
     height: 50rem;
     padding: 0;
-    background: url(/static/images/homepage/idaho-consumes-the-most-wine-per-capita-1592945641.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    margin-bottom: 5rem
 }
 
 .sell-fine-wine {
@@ -458,9 +462,43 @@ body {
     display: flex;
 }
 
+.info-img-holder {
+    height: 35rem;
+    margin-top: -10rem;
+    z-index: -1;
+}
+
+.info-img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+    object-position: top;
+}
 
 #sellBlob {
-    margin-bottom: 30rem;
     margin-top: -8rem;
 }
+
+/* Free Valuation wave */
+
+.flip-wave {
+    transform: rotate(180deg);
+    margin-top: 0px;
+    position: absolute;
+}
+
+.wave-book {
+    height: 7rem;
+}
+
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .thirty-percent {
+        width: 27%;
+    }
+}
+
 
