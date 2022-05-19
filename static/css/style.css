@@ -183,6 +183,11 @@ body {
     align-items: center;
 }
 
+.vertical-stack {
+    display: flex;
+    flex-direction: column;
+}
+
 .horizontal-end {
     display: flex;
     flex-direction: row;
@@ -314,6 +319,16 @@ body {
 
 .squish {
     width: 85%;
+}
+
+.form-holder {
+    display: flex;
+    height: 25rem;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Panels */
