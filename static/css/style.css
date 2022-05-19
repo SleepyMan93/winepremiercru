@@ -147,6 +147,10 @@ body {
     margin-top: 10rem
 }
 
+.small-bottom-margin {
+    margin-bottom: 5rem;
+}
+
 .bottom-margin {
     margin-bottom: 7rem;
 }
@@ -190,9 +194,6 @@ body {
     height: inherit;
 }
 
-
-
-
 /* Colours */
 
 .yellow {
@@ -228,7 +229,7 @@ body {
 }
 
 .red-opacity {
-    background-color: #b66868cb;
+    background-color: #c48686;
 }
 
 .brown-background {
@@ -562,6 +563,24 @@ body {
 .top-card {
     position: relative;
     z-index: 5;
+}
+
+
+/* Our Story */
+
+.img-height {
+    height: 40rem;
+}
+
+.our-story-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.our-cards {
+    width: 24rem;
+    height: 24rem;
 }
 
 
