@@ -97,6 +97,10 @@ body {
     font-size: 1.3rem;
 }
 
+.btn:hover {
+    color: #ffffff;
+}
+
 .button-center {
     height: 9rem;
 }
@@ -324,11 +328,81 @@ body {
 .form-holder {
     display: flex;
     height: 25rem;
+    margin-top: -7rem;
+    position: relative;
+    z-index: 5;
+}
+
+.form-label {
+    margin: 0rem;
 }
 
 form {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.box.has-advanced-upload .box__dragndrop {
+    display: inline;
+}
+
+.uploader {
+    font-size: 1.25rem;
+    background-color: #c8dadf;
+    position: relative;
+    padding: 70px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-section {
+    padding: 2px 20px;
+}
+
+textarea {
+    height: 10rem!important;
+}
+
+.inputfile {
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+    z-index: -1;
+}
+
+.inputfile, .upload-label {
+    cursor: pointer;
+}
+
+.inputfile:hover, .upload-label:hover {
+    color: #643C7C;
+}
+
+.inputfile, .upload-label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+}
+
+.upload-button {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload-svg {
+    fill: white;
+    height: 4rem;
+}
+
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
 }
 
 /* Panels */
@@ -535,7 +609,6 @@ form {
 .flip-wave {
     transform: rotate(180deg);
     margin-top: 0px;
-    position: absolute;
 }
 
 .wave-book {
