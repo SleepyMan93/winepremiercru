@@ -303,9 +303,24 @@ body {
     align-items: center;
 }
 
+.navbar-toggler {
+    padding: 0.25rem 0.55rem;
+    font-size: 1.55rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 0px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.navbar-toggler-icon {
+    width: 1.8em;
+    height: 1.8em;
+}
+
 .nav-title {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .nav-logo {
@@ -317,6 +332,61 @@ body {
 .testimonial-logo {
     width: auto;
     height: 4rem;
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #e0c179;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(100, 60, 124,.9);
+}
+
+.nav-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1rem;
+}
+
+.nav-info a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-info h4 {
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.nav-info a, .nav-info h4 {
+    color: #e0c179;
+}
+
+.navbar-toggler {
+    padding: 0.15rem 0.01rem;
+}
+
+.union-jack {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.union-jack img {
+    height: 3rem;
 }
 
 /* Sell Wine */
@@ -423,6 +493,16 @@ body {
     margin-right: 20rem;
     border: 8px solid white;
     z-index: 3;
+}
+
+.timeline-holder svg {
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.timeline {
+    margin-top: -68rem;
 }
 
 /* Bottom Info */
