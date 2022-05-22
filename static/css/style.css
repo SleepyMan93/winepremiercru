@@ -168,6 +168,10 @@ body {
     margin-bottom: 7rem;
 }
 
+.big-padding-top {
+    padding-top: 7rem;
+}
+
 .no-padding {
     padding-right: var(--bs-gutter-x,0rem) !important;
     padding-left: var(--bs-gutter-x,0rem) !important;
@@ -421,11 +425,18 @@ body {
 /* Panels */
 .top-blob {
     transform: rotate(180deg);
-    margin-bottom: -1rem;
+    margin-bottom: 1rem;
 }
 
 .panels {
     padding: 15rem 0rem;
+}
+
+.panel-holder {
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .cards {
@@ -618,6 +629,10 @@ td, th {
     padding: 8px;
 }
 
+.timeline-holder {
+    padding-top: 0rem;
+}
+
 /* Sell Fine Wines */
 
 .sell-text {
@@ -655,8 +670,8 @@ td, th {
 }
 
 .info-img-holder {
-    height: 35rem;
-    margin-top: -10rem;
+    height: 40rem;
+    margin-top: -15rem;
     z-index: -1;
 }
 
@@ -793,7 +808,7 @@ textarea {
 }
 
 #sellBlob {
-    margin-top: -8rem;
+    margin-top: -5rem;
 }
 
 /* Free Valuation wave */
@@ -813,6 +828,7 @@ textarea {
 .how-holder {
     display: flex;
     height: 50rem;
+    justify-content: center;
 }
 
 .how-title {
@@ -829,7 +845,6 @@ textarea {
     align-items: flex-start;
     height: 36rem;
     padding: 0;
-    margin-bottom: 5rem
 }
 
 .how-img {
@@ -839,7 +854,7 @@ textarea {
 }
 
 .how-card {
-    padding: 4rem 10rem;
+    padding: 4rem;
 }
 
 #howBlob {
@@ -855,7 +870,11 @@ textarea {
 }
 
 .card-info {
-    padding-right: 8rem;
+    padding-right: 3rem;
+}
+
+#footerBlob {
+    margin-bottom: 0rem;
 }
 
 
@@ -883,6 +902,24 @@ textarea {
 @media (min-width: 768px) {
     .thirty-percent {
         width: 30%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .card-info {
+        padding-right: 6rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    .timeline-holder {
+        padding-top: 7rem;
+    }
+}
+
+@media (min-width: 1650px) {
+    .timeline-holder {
+        padding-top: 10rem;
     }
 }
 
