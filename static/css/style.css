@@ -570,6 +570,42 @@ body {
     align-items: flex-end;
 }
 
+/* Buy Fine Wines */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table-search {
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px rgb(100,60,124, 0.5);
+}
+
+.table-search input {
+    width: 100%;
+}
+
+.header {
+    border: 0;
+    background-color: #643c7c;
+    color: white;
+}
+
+.search-middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-control {
+    border: 1px solid #643c7c;
+}
+
+td, th {
+    padding: 8px;
+}
+
 /* Sell Fine Wines */
 
 .sell-text {
@@ -819,7 +855,7 @@ textarea {
 
 @media (min-width: 768px) {
     .thirty-percent {
-        width: 27%;
+        width: 30%;
     }
 }
 
