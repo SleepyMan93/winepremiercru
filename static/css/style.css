@@ -240,6 +240,10 @@ body {
     background-color: #f8efef;
 }
 
+.smoke-fill {
+    fill: #f8efef;
+}
+
 .red {
     color: #B66868;
 }
@@ -481,6 +485,14 @@ body {
     margin-left: 20rem;
     border: 8px solid white;
     z-index: 3;
+}
+
+.circle img, .circle-oppo img {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 .lines {
@@ -803,19 +815,25 @@ textarea {
     height: 50rem;
 }
 
+.how-title {
+    margin-top: -6rem;
+    z-index: 5;
+    position: relative;
+}
+
 .how-text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    height: 50rem;
+    height: 36rem;
     padding: 0;
     margin-bottom: 5rem
 }
 
 .how-img {
-    height: inherit;
+    height: 28rem;
     width: 100%;
     object-fit: cover;
 }
@@ -830,7 +848,14 @@ textarea {
 
 .top-card {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     z-index: 5;
+}
+
+.card-info {
+    padding-right: 8rem;
 }
 
 
