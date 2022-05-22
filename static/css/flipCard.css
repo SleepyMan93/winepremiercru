@@ -6,6 +6,7 @@ div.fc_card-container img{
 /* === CARD CONTAINER === */
 div.card-container {
 	position: relative;
+	cursor: pointer;
 
 	display: block;
 	padding: 0;
