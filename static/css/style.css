@@ -861,8 +861,10 @@ textarea {
 
 /* Our Story */
 
-.img-height {
+.our-img {
     height: 40rem;
+    width: 100%;
+    object-fit: cover;
 }
 
 .our-story-text {
