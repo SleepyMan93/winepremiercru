@@ -70,7 +70,7 @@ body {
 
 .box-shadow-beige {
     -webkit-box-shadow: 4px 5px 8px -3px rgba(223, 202, 183, 1); 
-    box-shadow: 4px 5px 8px -3px rgba(223, 202, 183, 1);
+    box-shadow: 4px 5px 8px -3px rgb(185 167 151);
 }
 
 .top-padding {
@@ -126,6 +126,7 @@ body {
 
 .rounded-5 {
     border-radius: 2.25rem;
+    border: 0px !important;
 }
 
 .rounded-info {
@@ -446,6 +447,14 @@ body {
     flex-direction: row;
 }
 
+.cards-holder {
+    z-index: 2;
+}
+
+.cards img {
+    width: 100%;
+}
+
 /* Timeline */
 
 .bend-title {
@@ -506,6 +515,16 @@ body {
     left: 50px;
 }
 
+#meeting img {
+    top: 60px;
+    left: 55px;
+}
+
+#order img {
+    top: 60px;
+    left: 40px;
+}
+
 .lines {
     width: 100%;
 }
@@ -544,8 +563,8 @@ body {
 
 .top-blob-white {
     transform: rotate(180deg);
-    margin-top: -7rem;
-    margin-bottom: 0rem;
+    margin-top: -6rem;
+    margin-bottom: 1rem;
     /* filter: drop-shadow(3px 5px 2px rgba(195, 115, 115, 0.1)); */
 }
 
@@ -557,6 +576,11 @@ body {
 
 .carousel-control-prev {
     left: -50px;
+}
+
+.carousel-holder {
+    position: relative;
+    z-index: 3;
 }
 
 /* Testimonial */
@@ -579,18 +603,22 @@ body {
 
 .image-holder img {
     width: 95%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 2rem;
 }
 
 .buttons-2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    padding-right: 2rem;
 }
 
 /* Buy Fine Wines */
