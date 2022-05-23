@@ -219,6 +219,10 @@ body {
     height: inherit;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Colours */
 
 .yellow {
@@ -445,6 +449,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
+    transition: 0.7s ease;
 }
 
 .cards-holder {
@@ -453,7 +458,20 @@ body {
 
 .cards img {
     width: 100%;
+    object-fit: cover;
+    height: 13rem;
 }
+
+.grow{
+    transition: 0.3s ease;
+    }
+    
+    .grow:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    }
 
 /* Timeline */
 
@@ -619,6 +637,21 @@ body {
     flex-direction: column;
     align-items: flex-end;
     padding-right: 2rem;
+}
+
+/* Index */
+
+.home-info {
+    margin-top: 3rem;
+}
+
+#indexBlob {
+    margin-bottom: -2rem;
+}
+
+.corking {
+    position: relative;
+    z-index: 2;
 }
 
 /* Buy Fine Wines */

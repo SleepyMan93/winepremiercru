@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
     <title>Wines Premier Cru</title>
@@ -13,7 +15,7 @@
 <body>
     <nav class="navbar navbar-light">
       <div class="col-5 ps-5">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html">
           <img src="static/images/homepage/WPC_GrapeLogoTemp-pdf.png" class="nav-logo" alt="">
           <span class="nav-title purple">Wines Premier Cru</span>
         </a>
@@ -53,8 +55,8 @@
 
     <main>
       <!-- Sell Wine -->
-      <div class="container-xl sell-wine mt-3">
-        <div class="col-12 col-md-5 mt-4">
+      <div class="container-xl sell-wine mt-4">
+        <div class="col-12 col-md-5 home-info">
           <div class="my-5 ms-5 ps-5">
             <h1 class="sub-title bold purple">
               Lorem Ipsum
@@ -88,7 +90,7 @@
         <!--Portfolio-->
         <div id="portfolio" class="container-fluid beige-background">
           <div class="container-xl pt-5 cards">
-            <div class="col-7 col-md-3 mb-4 white-background cards-holder box-shadow-beige rounded-5 text-center">
+            <div class="col-7 col-md-3 mb-4 white-background cards-holder grow box-shadow-beige rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                  <img src="/static/images/homepage/wine-pick.jpg" class="rounded-5" alt="">
@@ -97,9 +99,11 @@
 
               <div class="col-12 mt-3 p-3 text-start">
                 <div>
-                  <h3 class="purple">
-                    Sell Fine Wine
-                  </h3>
+                  <a href="/sell.html">
+                    <h3 class="purple bold">
+                      Sell Fine Wine
+                    </h3>
+                  </a>
                 </div>
 
                 <div>
@@ -109,7 +113,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder rounded-5 text-center">
+            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                   <img src="/static/images/homepage/bottles-red.jpg" class="rounded-5" alt="">
@@ -118,9 +122,11 @@
 
               <div class="col-12 mt-3 p-3 text-start">
                 <div>
-                  <h3 class="purple">
-                    Buy Fine Wine
-                  </h3>
+                  <a href="/buy.html">
+                    <h3 class="purple bold">
+                      Buy Fine Wine
+                    </h3>
+                  </a>
                 </div>
 
                 <div>
@@ -131,7 +137,7 @@
               </div>
             </div>
 
-            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder rounded-5 text-center">
+            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                   <img src="/static/images/homepage/wine-rack.jpg" class="rounded-5" alt="">
@@ -140,9 +146,11 @@
 
               <div class="col-12 mt-3 p-3 text-start">
                 <div>
-                  <h3 class="purple">
-                    How It Works
-                  </h3>
+                  <a href="/how_it_works.html">
+                    <h3 class="purple bold">
+                      How It Works
+                    </h3>
+                  </a>
                 </div>
 
                 <div>
@@ -299,11 +307,11 @@
       -->
 
         <!--Testimonials-->
-        <svg viewBox="0 0 500 80" preserveAspectRatio="none" id="footerBlob" class="top-blob minus-margin">
+        <svg viewBox="0 0 500 80" preserveAspectRatio="none" id="indexBlob" class="top-blob minus-margin">
           <path d="M0,0 L0,50 Q100,100 500,40 L500,0 Z" class="beige-fill"/>
         </svg>
         <div class="container-fluid no-padding beige-background text-center">
-          <h1 class="big-title bold purple pt-2">
+          <h1 class="big-title bold corking purple pt-2">
             Corking Reviews
           </h1>
 
