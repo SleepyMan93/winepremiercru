@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
     <script>
       $(document).ready(function(){
         $("#myInput").on("keyup", function(){
@@ -217,15 +219,16 @@
             </h1>
           </div>
 
-          <div class="table-search p-3 rounded-5">
+          <div class="table-search p-3 rounded-5 table-responsive">
             <div class="col-12 search-middle">
               <div class="col-6">
                 <input type="text" id="myInput" class="rounded-3 form-control" placeholder="Search Our Wines..."><br>
               </div>
             </div>
 
-            <table id="myTable" class="table table-hover">
-              <thead class="thead-dark">
+            <table id="data" class="table table-hover">
+              <thead id="tableHeader" class="thead-dark header">
+                <!--
                 <tr class="header">
                   <th>Name</th>
                   <th>Vintage</th>
@@ -233,8 +236,10 @@
                   <th>Price</th>
                   <th>Quantity</th>
                 </tr>
+                -->
               </thead>
                 <tbody id="tableResults">
+                  <!--
                   <tr>
                     <td>Angelus</td>
                     <td>2004</td>
@@ -284,8 +289,13 @@
                     <td>£3,100</td>
                     <td>1</td>
                   </tr>
+                  -->
                 </tbody>
             </table>
+
+            <div class="col-md-12 text-center">
+              <ul class="pagination pagination-lg pager" id="myPager"></ul>
+            </div>
           </div>
         </div>
       </div>
@@ -388,5 +398,55 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/6d00f659a7.js" crossorigin="anonymous"></script>
+
+    <!-- Google API -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <!-- easyData -->
+    <script type="text/javascript" src="/static/js/easyData-google-sheets.js"></script>
+
+  <!-- easyData - Creating table -->
+  <script>
+    {
+      {
+        // Your API KEY
+        const API_KEY = "AIzaSyCDHsmJADu8ycy0nK-Rm5JfAPzQpkM0MDU";
+
+        function displayResult2(response) {
+          let tableHead = "";
+          let tableBody = "";
+
+          response.result.values.forEach((row, index) => {
+            if (index === 0) {
+              tableHead += "<tr>";
+              row.forEach((val) => (tableHead += "<th>" + val + "</th>"));
+              tableHead += "</tr>";
+            } else {
+              tableBody += "<tr>";
+              row.forEach((val) => (tableBody += "<td>" + val + "</td>"));
+              tableBody += "</tr>";
+            }
+          });
+
+          document.getElementById("tableHeader").innerHTML = tableHead;
+          document.getElementById("tableResults").innerHTML = tableBody;
+        }
+
+        function loadData() {
+          // Spreadsheet ID
+          const spreadsheetId = "1CxxkECtRkYnNItAnf7uJMTd50x2dAFjNWbXP5acDJQY";
+          const range = "A:Z";
+          getPublicValues({ spreadsheetId, range }, displayResult2);
+        }
+
+        window.addEventListener("load", (e) => {
+          initOAuthClient({ apiKey: API_KEY });
+        });
+
+        document.addEventListener("gapi-loaded", (e) => {
+          loadData();
+        });
+      }
+    }
+  </script>
 </body>
 </html>
