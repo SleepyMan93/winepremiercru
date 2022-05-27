@@ -55,21 +55,21 @@
 
     <main>
       <!-- Sell Wine -->
-      <div class="container-xl sell-wine mt-4">
+      <div class="container-xl sell-wine">
         <div class="col-12 col-md-5 home-info">
-          <div class="my-5 ms-5 ps-5">
+          <div class="text-center">
             <h1 class="sub-title bold purple">
               Lorem Ipsum
             </h1>
           </div>
 
-          <div class="my-5 mx-5 ps-5 squish">
+          <div class="col-10">
             <h5 class="light">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.    
             </h5>
           </div>
 
-          <div class="my-5 ms-5 ps-5">
+          <div class="my-5 col-10 home-buttons">
             <button type="button" class="btn me-1 rounded red-button box-shadow">Sell My Wine</button>
             <button type="button" class="btn ms-1 rounded purple-button box-shadow">Free Valuation</button>
           </div>
@@ -78,19 +78,19 @@
         <div class="col-12 col-md-7">
           <img src="static/images/new-icons/BottleGroup_Icon.png" class="wine-graphic" alt="Wine Graphic">
         </div>
-        <h1 class="big-title bold red ms-5 ps-5 mt-5">
+        <h1 class="big-title bold red mt-5 services-title">
           Our Services
         </h1>
       </div>
 
+      <svg viewBox="0 0 500 100" preserveAspectRatio="none" class="top-blob-white">
+        <path d="M0,0 L0,50 Q110,110 500,40 L500,0 Z" class="beige-fill"/>
+      </svg>
       <section class="white-background">
-        <svg viewBox="0 0 500 100" preserveAspectRatio="none" class="top-blob-white">
-          <path d="M0,0 L0,50 Q110,110 500,40 L500,0 Z" class="beige-fill"/>
-        </svg>
         <!--Portfolio-->
         <div id="portfolio" class="container-fluid beige-background">
           <div class="container-xl pt-5 cards">
-            <div class="col-7 col-md-3 mb-4 white-background cards-holder grow box-shadow-beige rounded-5 text-center">
+            <div class="col-10 col-md-3 mb-4 white-background cards-holder grow box-shadow-beige rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                  <img src="/static/images/homepage/wine-pick.jpg" class="rounded-5" alt="">
@@ -113,7 +113,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
+            <div class="col-10 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                   <img src="/static/images/homepage/bottles-red.jpg" class="rounded-5" alt="">
@@ -137,7 +137,7 @@
               </div>
             </div>
 
-            <div class="col-7 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
+            <div class="col-10 col-md-3 mb-4 white-background box-shadow-beige cards-holder grow rounded-5 text-center">
               <div class="col-12 white-background border rounded-5 text-center">
                 <div class="rounded-5 text-center">
                   <img src="/static/images/homepage/wine-rack.jpg" class="rounded-5" alt="">
@@ -162,7 +162,7 @@
             </div>
           </div>
         </div>
-        <svg viewBox="0 0 500 80" preserveAspectRatio="none" class="small-minus-margin-svg">
+        <svg viewBox="0 0 500 80" preserveAspectRatio="none" class="small-minus-margin">
           <path d="M0,0 L0,50 Q50,100 500,40 L500,0 Z" class="beige-fill"/>
         </svg>
         <!--
@@ -180,8 +180,8 @@
           </h1>
         </div>
 
-        <div class="container-xl py-5 cards">
-          <div class="col-7 col-md-3 panel-holder mb-4 p-4 white-background box-shadow-red rounded-5 text-center">
+        <div class="container-xl py-4 cards">
+          <div class="col-10 col-md-3 panel-holder mb-4 p-4 white-background box-shadow-red rounded-5 text-center">
             <div>
               <h1 class="big-title bold purple">
                 £5m<span>+</span>
@@ -195,7 +195,7 @@
               </h1>
             </div>
           </div>
-          <div class="col-7 col-md-3 panel-holder mb-4 p-4 white-background box-shadow-red rounded-5 text-center">
+          <div class="col-10 col-md-3 panel-holder mb-4 p-4 white-background box-shadow-red rounded-5 text-center">
             <div>
               <h1 class="big-title bold purple">
                 250<span>+</span>
@@ -209,7 +209,7 @@
               </h1>
             </div>
           </div>
-          <div class="col-7 col-md-3 panel-holder mb-4 p-4 white-background box-shadow-red rounded-5 text-center">
+          <div class="col-10 col-md-3 panel-holder mb-5 p-4 white-background box-shadow-red rounded-5 text-center">
             <div>
               <h1 class="big-title bold purple">
                 18
@@ -226,97 +226,17 @@
         </div>
       </div>
 
-      <!-- Timeline 
-      <div class="container-xl p-5 timeline">
-        <div class="col-12 portfolio">
-          <div class="col-7 bend bend-title">
-            <h1 class="sub-title red bold">
-              Sell Your Portfolio <br>
-               In <span class="yellow">4</span> Easy Steps
-            </h1>
-          </div>
-          <div class="col-3 circle"></div>
-          <div class="col-4 info beige-background rounded-info p-4 text-center">
-            <div class="half-width">
-              <h2 class="bold purple">
-                Valuation
-              </h2>
-            </div>
-            <div class="half-width">
-              <h5 class="light red info-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 portfolio-oppo">
-          <div class="col-7 bend-oppo"></div>
-          <div class="col-3 circle-oppo"></div>
-          <div class="col-4 info-oppo beige-background rounded-info p-4 text-center">
-            <div class="half-width">
-              <h2 class="bold purple">
-                Transfer
-              </h2>
-            </div>
-            <div class="half-width">
-              <h5 class="light red info-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 portfolio">
-          <div class="col-7 bend"></div>
-          <div class="col-3 circle"></div>
-          <div class="col-4 info beige-background rounded-info p-4 text-center">
-            <div class="half-width">
-              <h2 class="bold purple">
-                Sale
-              </h2>
-            </div>
-            <div class="half-width">
-              <h5 class="light red info-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-              </h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 portfolio-oppo">
-          <div class="col-7 bend-oppo ps-5 text-center button-center">
-            <button type="button" class="btn rounded purple-button box-shadow">Book Free Valuation</button>
-          </div>
-          <div class="col-3 circle-oppo">
-          </div>
-          <div class="col-4 info-oppo beige-background rounded-info p-4 text-center">
-            <div class="half-width">
-              <h2 class="bold purple">
-                Payment
-              </h2>
-            </div>
-            <div class="half-width">
-              <h5 class="light red info-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-              </h5>
-            </div>
-          </div>
-        </div>
-      </div>
-      -->
-
         <!--Testimonials-->
-        <svg viewBox="0 0 500 80" preserveAspectRatio="none" id="indexBlob" class="top-blob minus-margin">
+        <svg viewBox="0 0 500 80" preserveAspectRatio="none" id="indexBlob" class="top-blob mid-minus-margin">
           <path d="M0,0 L0,50 Q100,100 500,40 L500,0 Z" class="beige-fill"/>
         </svg>
-        <div class="container-fluid no-padding beige-background text-center">
+        <div class="container-fluid horizontal-center no-padding beige-background text-center">
           <h1 class="big-title bold corking purple pt-2">
             Corking Reviews
           </h1>
 
-          <div class="col-12 pt-4 pb-4 top-layer">
-            <div class="white-background rounded-5 box-shadow-beige p-5 mx-auto mt-5 mb-3 carousel-holder" style="max-width:550px;">
+          <div class="col-10 col-md-12 pt-4 pb-4 top-layer">
+            <div class="white-background rounded-5 box-shadow-beige mx-auto mt-3 mb-5 carousel-holder" style="max-width:550px;">
               <div id="carouselTestimonial" class="carousel carousel-dark carousel-testimonial slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item text-center active">
@@ -359,25 +279,38 @@
 
         <div class="container-fluid blob beige-background">
 
-          <div class="col-7 blob-holder">
+          <div class="col-12 col-md-7 blob-holder">
             <svg viewBox="0 0 350 220" preserveAspectRatio="none" class="blob-bottom">
               <path d="M0,0 L0,190 Q300,250 350,00 L350,0 Z" class="purple-fill"/>
             </svg>
           </div>
 
-          <div class="col-2 image-holder top">
+          <div class="col-5 col-md-2 image-holder top">
             <img src="static/images/new-icons/BottlePair_Icon.png" alt="">
           </div>
 
-          <div class="col-4 buttons top">
-            <h1 class="bold white">
-              About Us
-            </h1>
-            <div class="text-center mt-3 button-center">
-              <button type="button" class="btn rounded light-purple-button box-shadow">Learn More</button>
+          <div class="col-7 col-md-10 buttons top">
+            <div class="col-12 col-md-6">
+              <h1 class="bold white">
+                About Us
+              </h1>
+              <div class="mt-3 button-center">
+                <button type="button" class="btn rounded light-purple-button box-shadow">Learn More</button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 build-holder">
+              <h1 class="bold red">
+                Ready To Build <br>
+                Your Portfolio?
+              </h1>
+              <div class="mt-3 button-center">
+                <button type="button" class="btn rounded purple-button box-shadow">Call Now</button>
+              </div>
             </div>
           </div>
 
+          <!--
           <div class="col-6 buttons-2 top big-padding">
             <h1 class="bold red">
               Ready To Build <br>
@@ -387,6 +320,7 @@
               <button type="button" class="btn rounded purple-button box-shadow">Call Now</button>
             </div>
           </div>
+          -->
 
         </div>
       </section>

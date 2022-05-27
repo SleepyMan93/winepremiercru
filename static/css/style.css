@@ -111,11 +111,11 @@ body {
 }
 
 .button-center {
-    height: 9rem;
+    height: 6rem;
 }
 
 .big-title {
-    font-size: 5rem;
+    font-size: calc(3.375rem + 1.5vw);
     margin-bottom: 0rem;
 }
 
@@ -416,6 +416,7 @@ a {
 .sell-wine {
     display: flex;
     flex-direction: row;
+    margin-top: 2rem;
     flex-wrap: wrap;
 }
 
@@ -434,7 +435,7 @@ a {
 }
 
 .panels {
-    padding: 15rem 0rem;
+    padding-top: 11rem;
 }
 
 .panel-holder {
@@ -502,8 +503,9 @@ a {
 }
 
 #portfolio {
-    margin-top: -6rem;
+    margin-top: -7rem;
     z-index: 3;
+    position: relative;
 }
 
 .portfolio-oppo {
@@ -581,8 +583,8 @@ a {
 
 .top-blob-white {
     transform: rotate(180deg);
-    margin-top: -6rem;
-    margin-bottom: 1rem;
+    margin-top: -3rem;
+    margin-bottom: 5rem;
     /* filter: drop-shadow(3px 5px 2px rgba(195, 115, 115, 0.1)); */
 }
 
@@ -599,6 +601,7 @@ a {
 .carousel-holder {
     position: relative;
     z-index: 3;
+    padding: 0.8rem;
 }
 
 /* Testimonial */
@@ -639,14 +642,34 @@ a {
     padding-right: 2rem;
 }
 
+.build-holder {
+    display: none;
+}
+
 /* Index */
 
 .home-info {
-    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-left: 2rem;
+    height: 24rem;
+}
+
+.home-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.services-title {
+    width: 100%;
+    text-align: center;
 }
 
 #indexBlob {
-    margin-bottom: -2rem;
+    margin-bottom: -1rem;
 }
 
 .corking {
