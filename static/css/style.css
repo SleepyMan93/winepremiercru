@@ -1207,6 +1207,47 @@ textarea {
     .thirty-percent {
         width: 30%;
     }
+    
+
+    /* How It Works */
+    .how-header {
+        margin-top: 7rem;
+        margin-bottom: -1rem;
+        padding-bottom: 1rem;
+    }
+
+    .top-blob {
+        margin-bottom: 1rem;
+    }
+
+    .how-title {
+        margin-top: -11rem;
+    }
+
+    .minus-margin {
+        margin-top: -7rem;
+    }
+
+    .how-holder-final {
+        margin-bottom: -5rem;
+    }
+
+    #howBlob {
+        margin-top: -11rem;
+    }
+
+    .how-holder, .how-holder-final {
+        height: 38rem;
+    }
+
+    /* Footer */
+    .about {
+        padding-top: 3rem;
+    }
+
+    .build-holder {
+        display: block;
+    }
 }
 
 @media (min-width: 1200px) {
