@@ -861,13 +861,19 @@ td, th {
 }
 */
 
-.sell-fine-wine {
+.sell-fine-wine, .sell-fine-wine-how {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 14rem;
     justify-content: center;
 }
+
+/*
+.sell-fine-wine-how {
+    height: 14rem;
+}
+*/
 
 .text-holder {
     display: flex;
@@ -1080,10 +1086,22 @@ textarea {
 
 /* How It Works */
 
+/*
 .how-holder {
     display: flex;
     height: 50rem;
     justify-content: center;
+}
+*/
+
+.how-holder, .how-holder-final {
+    display: flex;
+    height: 68rem;
+    justify-content: center;
+}
+
+.how-holder-final {
+    margin-bottom: -8rem;
 }
 
 .how-title {
@@ -1092,13 +1110,25 @@ textarea {
     position: relative;
 }
 
+.how-header {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+    padding-bottom: 1rem;
+}
+
+/*
+.how-text {
+    height: 36rem;
+}
+*/
+
 .how-text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    height: 36rem;
+    height: 25rem;
     padding: 0;
 }
 
@@ -1108,12 +1138,24 @@ textarea {
     object-fit: cover;
 }
 
+/*
 .how-card {
     padding: 4rem;
 }
+*/
 
+.how-card {
+    padding: 1rem;
+}
+
+/*
 #howBlob {
     margin-top: -15rem;
+}
+*/
+
+#howBlob {
+    margin-top: -7rem;
 }
 
 .top-card {
@@ -1124,9 +1166,11 @@ textarea {
     z-index: 5;
 }
 
+/*
 .card-info {
     padding-right: 3rem;
 }
+*/
 
 /*
 #footerBlob {
