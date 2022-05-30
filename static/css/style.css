@@ -632,15 +632,28 @@ a {
 }
 */
 
-
+/*
 #meeting img {
     top: 60px;
     left: 55px;
 }
+*/
 
+#meeting img {
+    top: 45px;
+    left: 45px;
+}
+
+/*
 #order img {
     top: 60px;
     left: 40px;
+}
+*/
+
+#order img {
+    top: 45px;
+    left: 35px;
 }
 
 .lines {
@@ -812,6 +825,10 @@ td, th {
     padding-top: 0rem;
 }
 
+#corking {
+    margin-top: -3rem;
+}
+
 /* Sell Fine Wines */
 
 /*
@@ -838,11 +855,17 @@ td, th {
     margin-bottom: 1rem
 }
 
+/*
+.sell-fine-wine {
+    height: 20rem;
+}
+*/
+
 .sell-fine-wine {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20rem;
+    height: 14rem;
     justify-content: center;
 }
 
@@ -1025,8 +1048,14 @@ textarea {
     object-position: top;
 }
 
+/*
 #sellBlob {
     margin-top: -1rem;
+}
+*/
+
+#sellBlob {
+    margin-top: -3rem;
 }
 
 /* Free Valuation wave */
@@ -1108,7 +1137,6 @@ textarea {
 #footerBlob {
     margin-bottom: 2rem;
 }
-
 
 /* Our Story */
 
