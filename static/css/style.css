@@ -111,6 +111,7 @@ body {
 
 .btn {
     font-weight: 500;
+    font-size: 1.3rem;
 }
 
 .btn:hover {
@@ -737,7 +738,7 @@ a {
 
 .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     padding-left: 2rem;
 }
@@ -1204,10 +1205,98 @@ textarea {
 /* Media Queries */
 
 @media (min-width: 768px) {
-    .thirty-percent {
+
+    .btn {
+        font-size: 1.8rem;
+    }
+
+    /* Index */
+    .home-info {
+        padding-left: 0rem;
+        height: 26rem;
+        padding-top: 3rem;
+    }
+
+    .cards-holder, .panel-holder {
         width: 30%;
     }
-    
+
+    .panels {
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+    }
+
+    #indexBlob {
+        margin-bottom: -2rem;
+    }
+
+    .carousel-holder {
+        position: relative;
+        z-index: 3;
+        padding: 2.8rem;
+        margin-bottom: 5rem!important;
+    }
+
+    .mid-minus-margin {
+        margin-top: -5rem;
+    }
+
+    /* Sell Fine Wine */
+    .sell-fine-wine, .sell-fine-wine-how {
+        height: 17rem;
+    }
+
+    .squish-text {
+        width: 25rem;
+    }
+
+    #sellBlob {
+        margin-top: -7rem;
+    }
+
+    .info-img-holder {
+        margin-top: -10rem;
+    }
+
+    .sub-title {
+        margin-bottom: 0rem;
+    }
+
+    .timeline-holder svg {
+        width: 105%;
+    }
+
+    .bend-title {
+        margin-bottom: 0rem;
+    }
+
+    .circle {
+        margin-left: 11rem;
+    }
+
+    .circle-oppo {
+        margin-right: 11rem;
+    }
+
+    .info {
+        margin-left: 28rem;
+    }
+
+    .info-oppo {
+        margin-right: 28rem;
+    }
+
+    .upload-button {
+        width: 46%;
+    }
+
+    .big-top-margin {
+        margin-top: 11rem;
+    }
+
+    .thirty-percent {
+        width: 46%;
+    }
 
     /* How It Works */
     .how-header {
@@ -1247,6 +1336,10 @@ textarea {
 
     .build-holder {
         display: block;
+    }
+
+    #footerBlob {
+        margin-bottom: 0rem;
     }
 }
 
