@@ -57,6 +57,14 @@
     font-size: 0.9rem;
 }
 
+h1 {
+    font-size: calc(1.9rem + 1.5vw);
+}
+
+h2 {
+    font-size: calc(1.5rem + 1.5vw);
+}
+
 /* Global */
 
 body {
@@ -103,7 +111,6 @@ body {
 
 .btn {
     font-weight: 500;
-    font-size: 1.3rem;
 }
 
 .btn:hover {
@@ -133,8 +140,14 @@ body {
     border-radius: 1rem;
 }
 
+/*
 .half-width {
     width: 55%;
+}
+*/
+
+.half-width {
+    width: 67%;
 }
 
 .minus-margin {
@@ -157,8 +170,14 @@ body {
     margin-top: 5rem;
 }
 
+/*
 .big-top-margin {
     margin-top: 10rem
+}
+*/
+
+.big-top-margin {
+    margin-top: 33rem;
 }
 
 .small-bottom-margin {
@@ -476,18 +495,32 @@ a {
 
 /* Timeline */
 
+/*
 .bend-title {
     margin-bottom: 8rem;
+}
+*/
+
+.bend-title {
+    margin-bottom: 3rem
 }
 
 .info {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    height: 15rem;
+    height: 10rem;
     justify-content: center;
+    margin-left: 4rem;
 }
 
+/*
+.info {
+    height: 15rem
+}
+*/
+
+/*
 .info-oppo {
     display: flex;
     flex-direction: column;
@@ -495,11 +528,23 @@ a {
     height: 15rem;
     justify-content: center;
 }
+*/
+
+.info-oppo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 10rem;
+    justify-content: center;
+    margin-right: 4rem;
+}
 
 .portfolio {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
 #portfolio {
@@ -513,8 +558,11 @@ a {
     align-items: flex-end;
     flex-direction: row-reverse;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
 }
 
+/*
 .circle {
     width: auto;
     height: auto;
@@ -526,7 +574,55 @@ a {
     border: 8px solid white;
     z-index: 3;
 }
+*/
 
+.circle {
+    width: auto;
+    height: auto;
+    padding: 5rem;
+    border-radius: 50%;
+    background-color: #643C7C;
+    position: absolute;
+    margin-left: -14rem;
+    border: 8px solid white;
+    z-index: 3;
+}
+
+/*
+.circle-oppo {
+    width: auto;
+    height: auto;
+    padding: 8rem;
+    border-radius: 50%;
+    background-color: #643C7C;
+    position: absolute;
+    margin-right: 20rem;
+    border: 8px solid white;
+    z-index: 3;
+}
+*/
+
+.circle-oppo {
+    width: auto;
+    height: auto;
+    padding: 5rem;
+    border-radius: 50%;
+    background-color: #643C7C;
+    position: absolute;
+    margin-right: -14rem;
+    border: 8px solid white;
+    z-index: 3;
+}
+
+.circle img, .circle-oppo img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+/*
 .circle img, .circle-oppo img {
     width: 60%;
     height: auto;
@@ -534,6 +630,8 @@ a {
     top: 50px;
     left: 50px;
 }
+*/
+
 
 #meeting img {
     top: 60px;
@@ -554,26 +652,22 @@ a {
     margin-top: -6rem;
 }
 
-.circle-oppo {
-    width: auto;
-    height: auto;
-    padding: 8rem;
-    border-radius: 50%;
-    background-color: #643C7C;
-    position: absolute;
-    margin-right: 20rem;
-    border: 8px solid white;
-    z-index: 3;
-}
-
+/*
 .timeline-holder svg {
     width: 100%;
     position: relative;
     z-index: -1;
 }
+*/
+
+.timeline-holder svg {
+    width: 0%;
+    position: relative;
+    z-index: -1;
+}
 
 .timeline {
-    margin-top: -68rem;
+    margin-top: -70rem;
 }
 
 /* Bottom Info */
@@ -707,6 +801,7 @@ table {
 
 .form-control {
     border: 1px solid #643c7c;
+    border-radius: 1.5rem
 }
 
 td, th {
@@ -719,15 +814,28 @@ td, th {
 
 /* Sell Fine Wines */
 
+/*
 .sell-text {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 50rem;
     padding: 0;
     margin-bottom: 5rem
+}
+*/
+
+.sell-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 50rem;
+    padding: 0;
+    margin-bottom: 1rem
 }
 
 .sell-fine-wine {
@@ -745,7 +853,7 @@ td, th {
 }
 
 .squish-text {
-    width: 30rem;
+    width: 23rem;
 }
 
 .book-now {
@@ -753,16 +861,35 @@ td, th {
     display: flex;
 }
 
+.free-valuation {
+    margin: 0;
+}
+
+/*
+
 .info-img-holder {
     height: 40rem;
     margin-top: -15rem;
     z-index: -1;
 }
 
+*/
+
+.info-img-holder {
+    height: 31rem;
+    margin-top: -6rem;
+    z-index: -1;
+}
+
+/*
+.form-holder {
+    margin-top: -7rem;
+}
+*/
+
 .form-holder {
     display: flex;
     height: 25rem;
-    margin-top: -7rem;
     position: relative;
     z-index: 5;
 }
@@ -775,6 +902,7 @@ form {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .box.has-advanced-upload .box__dragndrop {
@@ -791,8 +919,14 @@ form {
     justify-content: center;
 }
 
+/*
 .form-section {
     padding: 2px 20px;
+}
+*/
+
+.form-section {
+    padding: 10px 0px;
 }
 
 textarea {
@@ -892,7 +1026,7 @@ textarea {
 }
 
 #sellBlob {
-    margin-top: -5rem;
+    margin-top: -1rem;
 }
 
 /* Free Valuation wave */
@@ -903,9 +1037,17 @@ textarea {
 }
 
 .wave-book {
-    height: 7rem;
+    height: 5rem;
+    position: relative;
+    z-index: 4;
+    margin-top: -2px;
 }
 
+/*
+.wave-book {
+    height: 7rem;
+}
+*/
 
 /* How It Works */
 
@@ -957,8 +1099,14 @@ textarea {
     padding-right: 3rem;
 }
 
+/*
 #footerBlob {
     margin-bottom: 0rem;
+}
+*/
+
+#footerBlob {
+    margin-bottom: 2rem;
 }
 
 
