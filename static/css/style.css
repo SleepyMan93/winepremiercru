@@ -974,11 +974,11 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .our-cards {
-    width: 28rem;
-    height: 28rem;
+    height: 22rem;
 }
 
 /* Media Queries */
