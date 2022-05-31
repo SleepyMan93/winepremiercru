@@ -58,7 +58,7 @@
 }
 
 h1 {
-    font-size: calc(1.9rem + 1.5vw);
+    font-size: calc(1.8rem + 1.5vw);
 }
 
 h2 {
@@ -496,12 +496,6 @@ a {
 
 /* Timeline */
 
-/*
-.bend-title {
-    margin-bottom: 8rem;
-}
-*/
-
 .bend-title {
     margin-bottom: 3rem
 }
@@ -514,22 +508,6 @@ a {
     justify-content: center;
     margin-left: 4rem;
 }
-
-/*
-.info {
-    height: 15rem
-}
-*/
-
-/*
-.info-oppo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 15rem;
-    justify-content: center;
-}
-*/
 
 .info-oppo {
     display: flex;
@@ -563,20 +541,6 @@ a {
     margin-bottom: 1rem;
 }
 
-/*
-.circle {
-    width: auto;
-    height: auto;
-    padding: 8rem;
-    border-radius: 50%;
-    background-color: #643C7C;
-    position: absolute;
-    margin-left: 20rem;
-    border: 8px solid white;
-    z-index: 3;
-}
-*/
-
 .circle {
     width: auto;
     height: auto;
@@ -588,20 +552,6 @@ a {
     border: 8px solid white;
     z-index: 3;
 }
-
-/*
-.circle-oppo {
-    width: auto;
-    height: auto;
-    padding: 8rem;
-    border-radius: 50%;
-    background-color: #643C7C;
-    position: absolute;
-    margin-right: 20rem;
-    border: 8px solid white;
-    z-index: 3;
-}
-*/
 
 .circle-oppo {
     width: auto;
@@ -623,34 +573,10 @@ a {
     left: 40px;
 }
 
-/*
-.circle img, .circle-oppo img {
-    width: 60%;
-    height: auto;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-*/
-
-/*
-#meeting img {
-    top: 60px;
-    left: 55px;
-}
-*/
-
 #meeting img {
     top: 45px;
     left: 45px;
 }
-
-/*
-#order img {
-    top: 60px;
-    left: 40px;
-}
-*/
 
 #order img {
     top: 45px;
@@ -665,14 +591,6 @@ a {
     position: absolute;
     margin-top: -6rem;
 }
-
-/*
-.timeline-holder svg {
-    width: 100%;
-    position: relative;
-    z-index: -1;
-}
-*/
 
 .timeline-holder svg {
     width: 0%;
@@ -879,11 +797,11 @@ td, th {
 .text-holder {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .squish-text {
-    width: 23rem;
+    width: 22rem;
 }
 
 .book-now {
@@ -1102,7 +1020,7 @@ textarea {
 }
 
 .how-holder-final {
-    margin-bottom: -8rem;
+    margin-bottom: -6rem;
 }
 
 .how-title {
@@ -1180,7 +1098,7 @@ textarea {
 */
 
 #footerBlob {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 /* Our Story */
@@ -1298,6 +1216,20 @@ textarea {
         width: 46%;
     }
 
+    /* Buy Fine Wine */
+    #buyTimeline {
+        margin-top: -3rem;
+    }
+
+    #buyTimeline svg {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    #finalSlot {
+        margin-top: -6rem;
+    }
+
     /* How It Works */
     .how-header {
         margin-top: 7rem;
@@ -1314,7 +1246,7 @@ textarea {
     }
 
     .minus-margin {
-        margin-top: -7rem;
+        margin-top: -6rem;
     }
 
     .how-holder-final {
@@ -1322,7 +1254,7 @@ textarea {
     }
 
     #howBlob {
-        margin-top: -11rem;
+        margin-top: -8rem;
     }
 
     .how-holder, .how-holder-final {
@@ -1343,7 +1275,164 @@ textarea {
     }
 }
 
+@media (min-width: 992px) {
+    .minus-margin {
+        margin-top: -7rem;
+    }
+
+    .small-minus-margin {
+        margin-top: -6rem;
+    }
+
+    /* Index */
+    .sell-text {
+        margin-bottom: 0rem;
+    }
+
+    .sell-wine {
+        margin-top: 3rem;
+    }
+
+    .panels {
+        padding-top: 14rem;
+    }
+    
+    .home-info {
+        padding-left: 2rem;
+        height: 26rem;
+        padding-top: 2rem;
+    }
+
+    /* Sell Fine Wine */
+
+    .sell-fine-wine, .sell-fine-wine-how {
+        height: 20rem;
+    }
+
+    #sellBlob {
+        margin-top: -6rem;
+    }
+
+    .timeline {
+        padding-top: 5rem!important;
+        margin-top: -69rem;
+    }
+
+    .timeline-holder {
+        padding-top: 1rem;
+    }
+
+    .bend-title {
+        margin-bottom: 8rem;
+    }
+
+    .half-width {
+        width: 60%;
+    }
+
+    .info {
+        height: 15rem;
+        margin-left: 4rem;
+    }
+
+    .info-oppo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 15rem;
+        margin-right: 39rem;
+        justify-content: center;
+    }
+
+    .circle {
+        padding: 8rem;
+        margin-left: 18rem;
+    }
+
+    .circle-oppo {
+        padding: 8rem;
+        margin-right: 18rem;
+    }
+
+    .circle img, .circle-oppo img {
+        width: 60%;
+        height: auto;
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    #meeting img {
+        top: 60px;
+        left: 55px;
+    }
+
+    #order img {
+        top: 60px;
+        left: 40px;
+    }
+
+    .timeline-holder svg {
+        width: 100%;
+        position: relative;
+        z-index: -1;
+        margin-bottom: -2rem;
+    }
+
+    .wave-book .horizontal-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .wave-book {
+        height: 8rem;
+        margin-top: 0px;
+    }
+
+    .form-holder {
+        margin-top: -4rem;
+    }
+
+    /* Buy Fine Wines */
+    #buyTimeline {
+        margin-top: 5rem;
+    }
+
+    #buyTimeline svg {
+        width: 100%;
+        margin-bottom: -5rem;
+    }
+
+    /* How It Works */
+    .how-text {
+        margin-bottom: 3rem;
+    }
+
+    .minus-margin {
+        margin-top: -13rem;
+    }
+
+    .how-holder, .how-holder-final {
+        height: 44rem;
+    }
+
+    .how-holder-final {
+        margin-bottom: -8rem;
+    }
+}
+
 @media (min-width: 1200px) {
+    .thirty-percent {
+        width: 30%;
+    }
+
+    /* Sell Fine Wines */
+    .info {
+        margin-left: 0rem;
+    }
     .card-info {
         padding-right: 6rem;
     }
