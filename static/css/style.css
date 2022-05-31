@@ -1429,6 +1429,38 @@ textarea {
         width: 30%;
     }
 
+    /* Index */
+    .home-info {
+        padding-left: 2rem;
+        height: 34rem;
+        padding-top: 7rem;
+    }
+
+    .wine-graphic {
+        width: 95%;
+    }
+
+    .top-blob-white {
+        margin-top: -5rem;
+        margin-bottom: 3rem;
+    }
+
+    .cards {
+        padding-top: 0rem!important;
+    }
+
+    #indexBlob {
+        margin-bottom: -4rem;
+    }
+
+    .mid-minus-margin {
+        margin-top: -6rem;
+    }
+
+    .top-layer {
+        padding-bottom: 0rem;
+    }
+
     /* Sell Fine Wines */
     .info {
         margin-left: 0rem;
