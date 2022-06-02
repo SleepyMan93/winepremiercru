@@ -359,7 +359,7 @@ a {
 
 .nav-logo {
     width: auto;
-    height: 4rem;
+    height: 5rem;
     margin-right: 1rem;
 }
 
@@ -393,10 +393,7 @@ a {
 }
 
 .nav-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    font-size: 1rem;
+    display: none;
 }
 
 .nav-info a {
@@ -406,11 +403,11 @@ a {
 
 .nav-info h4 {
     margin: 0px;
-    font-size: 1rem;
 }
 
 .nav-info a, .nav-info h4 {
     color: #e0c179;
+    font-size: 1.4rem;
 }
 
 .navbar-toggler {
@@ -480,18 +477,14 @@ a {
 .cards img {
     width: 100%;
     object-fit: cover;
-    height: 13rem;
+    height: 17rem;
 }
-
-.grow{
-    transition: 0.3s ease;
-    }
     
     .grow:hover{
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
-    transition: 0.3s ease;
+    transition: 0.2s ease;
     }
 
 /* Timeline */
@@ -824,7 +817,7 @@ td, th {
 */
 
 .info-img-holder {
-    height: 31rem;
+    height: 33rem;
     margin-top: -6rem;
     z-index: -1;
 }
@@ -837,6 +830,7 @@ td, th {
 
 .form-holder {
     display: flex;
+    justify-content: center;
     height: 25rem;
     position: relative;
     z-index: 5;
@@ -1120,9 +1114,27 @@ textarea {
     height: 22rem;
 }
 
+/* Animation */
+.section {
+    opacity: 1;
+    transition: opacity 1s ease;
+}
+
+.hidden {
+    opacity: 0;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px) {
+
+    .nav-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
     .btn {
         font-size: 1.3rem;
@@ -1173,7 +1185,7 @@ textarea {
     }
 
     .info-img-holder {
-        margin-top: -10rem;
+        margin-top: -11rem;
     }
 
     .sub-title {
@@ -1276,6 +1288,10 @@ textarea {
 }
 
 @media (min-width: 992px) {
+    .mid-minus-margin {
+        margin-top: -8rem;
+    }
+
     .minus-margin {
         margin-top: -7rem;
     }
@@ -1293,8 +1309,22 @@ textarea {
         margin-top: 3rem;
     }
 
+    .sell-wine h1 {
+        margin-bottom: 0rem;
+    }
+
+    .cards {
+        padding-top: 0rem!important;
+        padding-bottom: 3rem;
+    }
+
     .panels {
         padding-top: 14rem;
+        padding-bottom: 7rem;
+    }
+
+    #indexBlob {
+        margin-bottom: -3rem;
     }
     
     .home-info {
@@ -1310,7 +1340,7 @@ textarea {
     }
 
     #sellBlob {
-        margin-top: -6rem;
+        margin-top: -7rem;
     }
 
     .timeline {
@@ -1408,7 +1438,7 @@ textarea {
 
     /* How It Works */
     .how-text {
-        margin-bottom: 3rem;
+        margin-bottom: 12rem;
     }
 
     .minus-margin {
@@ -1449,12 +1479,16 @@ textarea {
         padding-top: 0rem!important;
     }
 
+    .panels {
+        padding-bottom: 10rem;
+    }
+
     #indexBlob {
         margin-bottom: -4rem;
     }
 
     .mid-minus-margin {
-        margin-top: -6rem;
+        margin-top: -10rem;
     }
 
     .top-layer {
