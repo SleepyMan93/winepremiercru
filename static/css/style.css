@@ -445,7 +445,7 @@ a {
 /* Panels */
 .top-blob {
     transform: rotate(180deg);
-    margin-bottom: 1rem;
+    margin-bottom: -5rem;
 }
 
 .panels {
@@ -1006,7 +1006,7 @@ textarea {
 
 .how-holder, .how-holder-final {
     display: flex;
-    height: 68rem;
+    height: 62rem;
     justify-content: center;
 }
 
@@ -1015,15 +1015,23 @@ textarea {
 }
 
 .how-title {
-    margin-top: -6rem;
+    margin-top: -10rem;
     z-index: 5;
     position: relative;
 }
 
 .how-header {
-    margin-top: 1rem;
+    margin-top: 8rem;
+}
+
+.how-header, .how-header-sell {
     margin-bottom: -1rem;
     padding-bottom: 1rem;
+    padding-top: 5rem;
+}
+
+.how-header-sell {
+    margin-top: 3rem
 }
 
 /*
@@ -1089,7 +1097,8 @@ textarea {
 */
 
 #footerBlob {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
+    margin-top: 4rem;
 }
 
 /* Our Story */
@@ -1148,7 +1157,7 @@ textarea {
 
 .smoke {
     background: #f8efef;
-    transform: translateY(50%);
+    transform: translateY(35%);
     opacity: 0;
 }
 
@@ -1162,7 +1171,7 @@ textarea {
 
 .no-pink {
     background: #ddbaba;
-    transform: translateY(50%);
+    transform: translateY(35%);
     opacity: 0;
 }
 
@@ -1194,7 +1203,7 @@ textarea {
 
 .mask {
     position: absolute;
-    height: 80vh;
+    height: 150vh;
     top: 84px;
 }
 
@@ -1321,18 +1330,23 @@ textarea {
     }
 
     /* How It Works */
-    .how-header {
+    .how-header, .how-header-sell {
         margin-top: 7rem;
         margin-bottom: -1rem;
         padding-bottom: 1rem;
+        padding-top: 5rem;
     }
 
     .how-text {
         margin-bottom: 4rem;
     }
 
+    .how-img {
+        height: 33rem;
+    }
+
     .top-blob {
-        margin-bottom: 1rem;
+        margin-bottom: -5rem;
     }
 
     .how-title {
@@ -1353,6 +1367,10 @@ textarea {
 
     .how-holder, .how-holder-final {
         height: 40rem;
+    }
+
+    .mask {
+        height: 100vh;
     }
 
     /* Footer */
@@ -1520,7 +1538,7 @@ textarea {
 
     /* How It Works */
     .how-text {
-        margin-bottom: 12rem;
+        margin-bottom: 9rem;
     }
 
     .minus-margin {
@@ -1533,6 +1551,14 @@ textarea {
 
     .how-holder-final {
         margin-bottom: -8rem;
+    }
+
+    .how-header-sell {
+        margin-top: 15rem;
+    }
+
+    .card-info {
+        padding-right: 4rem;
     }
 }
 
@@ -1589,17 +1615,77 @@ textarea {
     .how-text {
         margin-bottom: 13rem;
     }
+
+    #howBlob {
+        margin-top: -11rem;
+    }
 }
 
 @media (min-width: 1400px) {
     .timeline-holder {
         padding-top: 7rem;
     }
+
+    .how-header-sell {
+        margin-top: 17rem;
+    }
+
+    .how-text {
+        margin-bottom: 1rem;
+    }
+
+    .how-img {
+        height: 38rem;
+    }
+
+    .how-header, .how-header-sell {
+        margin-top: 21rem;
+    }
+
+    .bottom-section {
+        margin-bottom: 10rem
+    }
+
+    .top-card {
+        padding: 3rem!important;
+    }
 }
 
 @media (min-width: 1650px) {
     .timeline-holder {
         padding-top: 10rem;
+    }
+
+    .top-card {
+        padding: 3rem!important;
+    }
+
+    .how-title {
+        margin-top: 0rem;
+    }
+
+    .minus-margin {
+        margin-top: -16rem;
+    }
+
+    .sell-fine-wine, .sell-fine-wine-how {
+        height: 23rem;
+    }
+
+    #howBlob {
+        margin-top: -14rem;
+    }
+
+    .how-img {
+        height: 37rem;
+    }
+
+    .bottom-section {
+        margin-bottom: 9rem;
+    }
+
+    .mask {
+        height: 127vh;
     }
 }
 
