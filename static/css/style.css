@@ -1224,7 +1224,7 @@ textarea {
     }
 
     .btn {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
     }
 
     /* Index */
@@ -1375,7 +1375,7 @@ textarea {
 
     /* Footer */
     .about {
-        padding-top: 3rem;
+        padding-top: 4rem;
     }
 
     .build-holder {
@@ -1419,7 +1419,7 @@ textarea {
     }
 
     .panels {
-        padding-top: 14rem;
+        padding-top: 18rem;
         padding-bottom: 7rem;
     }
 
@@ -1567,6 +1567,10 @@ textarea {
         width: 30%;
     }
 
+    .btn {
+        font-size: 1.3rem;
+    }
+
     /* Index */
     .home-info {
         padding-left: 4rem;
@@ -1588,7 +1592,7 @@ textarea {
     }
 
     .panels {
-        padding-bottom: 10rem;
+        padding-bottom: 12rem;
     }
 
     #indexBlob {
@@ -1596,11 +1600,19 @@ textarea {
     }
 
     .mid-minus-margin {
-        margin-top: -10rem;
+        margin-top: -11rem;
     }
 
     .top-layer {
         padding-bottom: 0rem;
+    }
+
+    .corking-review {
+        margin-top: -4rem;
+    }
+
+    .about {
+        padding-top: 3.5rem;
     }
 
     /* Sell Fine Wines */
@@ -1622,6 +1634,10 @@ textarea {
 }
 
 @media (min-width: 1400px) {
+    .minus-margin {
+        margin-top: -15rem;
+    }
+
     .timeline-holder {
         padding-top: 7rem;
     }
@@ -1648,6 +1664,14 @@ textarea {
 
     .top-card {
         padding: 3rem!important;
+    }
+
+    .mask {
+        height: 120vh;
+    }
+
+    .corking-review {
+        margin-top: -7rem;
     }
 }
 
