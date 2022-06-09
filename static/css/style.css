@@ -329,6 +329,10 @@ a {
     padding: 0;
 }
 
+.wpc-logo {
+    padding-left: 0.25rem;
+}
+
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -415,6 +419,7 @@ a {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 0.25rem;
 }
 
 .union-jack img {
@@ -435,7 +440,7 @@ a {
 }
 
 .wine-graphic {
-    width: 100%;
+    width: 92%;
 }
 
 .squish {
@@ -669,6 +674,7 @@ a {
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: center;
     padding-left: 2rem;
     height: 24rem;
 }
@@ -1136,14 +1142,17 @@ textarea {
 .move {
     transform: translateX(0px);
     transition: all 1s ease;
+    opacity: 1;
 }
 
 .left {
     transform: translateX(60px);
+    opacity: 0;
 }
 
 .right {
     transform: translateX(-60px);
+    opacity: 0;
 }
 
 /* Color Change */
@@ -1223,8 +1232,16 @@ textarea {
         justify-content: center;
     }
 
+    .wpc-logo {
+        padding-left: 1.5rem;
+    }
+
+    .union-jack {
+        padding-right: 1.5rem;
+    }
+
     .btn {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     /* Index */
@@ -1388,6 +1405,7 @@ textarea {
 }
 
 @media (min-width: 992px) {
+
     .mid-minus-margin {
         margin-top: -8rem;
     }
@@ -1401,6 +1419,10 @@ textarea {
     }
 
     /* Index */
+    #homeTitle {
+        font-size: 4rem;
+    }
+
     .sell-text {
         margin-bottom: 0rem;
     }
@@ -1429,8 +1451,8 @@ textarea {
     
     .home-info {
         padding-left: 2rem;
-        height: 26rem;
-        padding-top: 2rem;
+        height: 29rem;
+        padding-top: 0rem;
     }
 
     /* Sell Fine Wine */
@@ -1568,18 +1590,23 @@ textarea {
     }
 
     .btn {
-        font-size: 1.3rem;
+        font-size: 1.6rem;
     }
 
     /* Index */
     .home-info {
         padding-left: 4rem;
-        height: 34rem;
-        padding-top: 7rem;
+        height: 32rem;
+        padding-top: 0rem;
+    }
+
+    #homeTitle {
+        font-size: 4rem;
     }
 
     .wine-graphic {
         width: 90%;
+        margin-left: 2rem;
     }
 
     .top-blob-white {
@@ -1596,7 +1623,7 @@ textarea {
     }
 
     #indexBlob {
-        margin-bottom: -4rem;
+        margin-bottom: 0rem;
     }
 
     .mid-minus-margin {
@@ -1634,6 +1661,14 @@ textarea {
 }
 
 @media (min-width: 1400px) {
+    .home-info {
+        height: 36rem;
+    }
+
+    #homeTitle {
+        font-size: 5rem;
+    }
+
     .minus-margin {
         margin-top: -15rem;
     }
