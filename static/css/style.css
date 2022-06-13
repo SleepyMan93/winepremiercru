@@ -898,8 +898,8 @@ textarea {
 }
 
 .inputfile-5 + label figure {
-    width: 100px;
-    height: 135px;
+    width: 112px;
+    height: 139px;
     background: #f4e8dd;
     display: block;
     position: relative;
@@ -1476,11 +1476,11 @@ textarea {
     }
 
     h5 {
-        font-size: calc(1.1rem);
+        font-size: calc(1.3rem);
     }
 
     .btn {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
     }
 
     .mid-minus-margin {
@@ -1553,17 +1553,30 @@ textarea {
         height: 20rem;
     }
 
+    .text-holder {
+        margin-top: 0rem;
+    }
+
     #sellBlob {
-        margin-top: -7rem;
+        margin-top: -5rem;
+    }
+
+    .squish-text {
+        width: 38rem;
+    }
+
+    .info-img-holder {
+        margin-top: -8rem;
+        height: 34rem;
     }
 
     .timeline {
-        padding-top: 5rem!important;
-        margin-top: -69rem;
+        padding-top: 9rem!important;
+        margin-top: -73rem;
     }
 
     .timeline-holder {
-        padding-top: 1rem;
+        padding-top: 5rem;
     }
 
     .bend-title {
@@ -1571,12 +1584,14 @@ textarea {
     }
 
     .half-width {
-        width: 60%;
+        width: 63%;
     }
 
     .info {
         height: 15rem;
-        margin-left: 4rem;
+        margin-left: 2.8rem;
+        margin-right: 0rem;
+        padding-right: 0rem;
     }
 
     .info-oppo {
@@ -1584,18 +1599,19 @@ textarea {
         flex-direction: column;
         align-items: flex-start;
         height: 15rem;
-        margin-right: 39rem;
+        margin-right: 37rem;
+        margin-left: 0rem;
         justify-content: center;
     }
 
     .circle {
         padding: 8rem;
-        margin-left: 18rem;
+        margin-left: 16rem;
     }
 
     .circle-oppo {
         padding: 8rem;
-        margin-right: 18rem;
+        margin-right: 16rem;
     }
 
     .circle img, .circle-oppo img {
@@ -1633,11 +1649,15 @@ textarea {
 
     .wave-book {
         height: 8rem;
-        margin-top: 0px;
+        margin-top: -1px;
     }
 
     .form-holder {
         margin-top: -4rem;
+    }
+
+    .cards > .thirty-percent {
+        width: 43%;
     }
 
     /* Buy Fine Wines */
@@ -1680,11 +1700,19 @@ textarea {
         padding-top: 3.5rem;
         margin-right: 1rem;
     }
+
+    #footerBlob {
+        margin-top: 2rem;
+    }
 }
 
 @media (min-width: 1200px) {
-    .thirty-percent {
-        width: 30%;
+    h5 {
+        font-size: calc(1.3rem);
+    }
+
+    .cards > .thirty-percent {
+        width: 31%;
     }
 
     .btn {
@@ -1741,9 +1769,23 @@ textarea {
     }
 
     /* Sell Fine Wines */
+    .text-holder {
+        margin-top: 1rem;
+    }
+
     .info {
         margin-left: 0rem;
     }
+
+    .info-img-holder {
+        margin-top: -12rem;
+        height: 41rem;
+    }
+
+    .timeline-holder {
+        padding-top: 10rem;
+    }
+
     .card-info {
         padding-right: 6rem;
     }
@@ -1775,8 +1817,41 @@ textarea {
         margin-top: -15rem;
     }
 
+    /* Sell Fine Wine */
+    .info-img-holder {
+        margin-top: -15rem;
+        height: 45rem;
+    }
+
+    .half-width > h2 {
+        margin: 0.5rem;
+    }
+
+    .circle {
+        margin-left: 23rem;
+    }
+
+    .circle-oppo {
+        padding: 8rem;
+        margin-right: 22rem;
+    }
+
+    .info {
+        padding-right: 1.5rem!important;
+    }
+
+    .info-oppo {
+        margin-right: 46rem;
+        padding-left: 1.5rem!important;
+    }
+
     .timeline-holder {
-        padding-top: 7rem;
+        padding-top: 16rem;
+    }
+
+    #bookNow {
+        margin-left: 13rem!important;
+        margin-right: 0rem!important;
     }
 
     .how-header-sell {
