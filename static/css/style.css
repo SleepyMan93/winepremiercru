@@ -745,7 +745,7 @@ td, th {
 }
 
 .timeline-holder {
-    padding-top: 0rem;
+    padding-top: 2rem;
 }
 
 #corking {
@@ -806,7 +806,7 @@ td, th {
 }
 
 .squish-text {
-    width: 22rem;
+    width: 24rem;
 }
 
 .book-now {
@@ -1031,9 +1031,13 @@ textarea {
 }
 
 .how-title {
-    margin-top: -10rem;
+    margin-top: 31rem;
     z-index: 5;
     position: relative;
+}
+
+#buySection {
+    margin-top: 36rem;
 }
 
 .how-header {
@@ -1047,7 +1051,7 @@ textarea {
 }
 
 .how-header-sell {
-    margin-top: 3rem
+    margin-top: -46rem;
 }
 
 /*
@@ -1062,8 +1066,12 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    height: 25rem;
+    height: 37rem;
     padding: 0;
+}
+
+.how-img-holder {
+    padding-top: 0.5rem;
 }
 
 .how-img {
@@ -1089,7 +1097,7 @@ textarea {
 */
 
 #howBlob {
-    margin-top: -7rem;
+    margin-top: -11rem;
 }
 
 .top-card {
@@ -1114,7 +1122,7 @@ textarea {
 
 #footerBlob {
     margin-bottom: 0rem;
-    margin-top: 4rem;
+    margin-top: 0rem;
 }
 
 /* Our Story */
@@ -1222,8 +1230,12 @@ textarea {
 
 .mask {
     position: absolute;
-    height: 150vh;
-    top: 84px;
+    height: 185vh;
+    top: 88px;
+}
+
+.last-mask {
+    height: 143vh;
 }
 
 .relative {
@@ -1770,7 +1782,7 @@ textarea {
 
     /* Sell Fine Wines */
     .text-holder {
-        margin-top: 1rem;
+        margin-top: 2rem;
     }
 
     .info {
@@ -1795,8 +1807,12 @@ textarea {
         margin-bottom: 13rem;
     }
 
+    .how-img {
+        height: 34rem;
+    }
+
     #howBlob {
-        margin-top: -11rem;
+        margin-top: -8rem;
     }
 }
 
@@ -1888,8 +1904,40 @@ textarea {
 }
 
 @media (min-width: 1650px) {
+    .container-xl {
+        max-width: 1580px;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    /* Sell Fine Wine */
     .timeline-holder {
         padding-top: 10rem;
+    }
+
+    .circle-oppo {
+        padding: 10rem;
+        margin-right: 27rem;
+    }
+
+    .info-oppo {
+        margin-right: 57rem;
+        padding-left: 2.5rem!important;
+    }
+
+    .free-valuation {
+        font-size: calc(2.5rem + 1.5vw);
+    }
+
+    .info-text {
+        font-size: 1.3rem;
+    }
+
+    /* Buy Fine Wine */
+    td {
+        font-size: 2rem;
     }
 
     .top-card {
