@@ -1548,6 +1548,10 @@ textarea {
         margin-bottom: 1rem;
     }
 
+    .sell-wine h5 {
+        font-size: calc(1.1rem);
+    }
+
     .cards {
         padding-top: 0rem!important;
         padding-bottom: 3rem;
@@ -1564,7 +1568,7 @@ textarea {
     
     .home-info {
         padding-left: 0rem;
-        height: 33rem;
+        height: 35rem;
         padding-top: 0rem;
         justify-content: center;
     }
@@ -1689,7 +1693,7 @@ textarea {
     }
 
     .cards > .thirty-percent {
-        width: 43%;
+        width: 30%;
     }
 
     /* Buy Fine Wines */
