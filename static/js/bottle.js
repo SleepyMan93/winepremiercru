@@ -1,6 +1,6 @@
 function colorFill(element) {
     let elementBox = element.getBoundingClientRect();
-    let distanceFromTop = +200;
+    let distanceFromTop = +1250;
 
     if(elementBox.top - window.innerHeight < distanceFromTop) {
         return true;
@@ -11,7 +11,7 @@ function colorFill(element) {
 
 function blobFill(element) {
     let elementBox = element.getBoundingClientRect();
-    let distanceFromTop = -200;
+    let distanceFromTop = -1250;
 
     if(elementBox.top - window.innerHeight < distanceFromTop) {
         return true;
