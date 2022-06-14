@@ -637,6 +637,7 @@ a {
 
 .blob {
     display: flex;
+    position: relative;
     align-items: flex-end;
     margin-top: -1rem;
     padding-right: var(--bs-gutter-x,0rem);
@@ -1425,10 +1426,13 @@ textarea {
 
     /* How It Works */
     .how-header, .how-header-sell {
-        margin-top: 7rem;
         margin-bottom: -1rem;
         padding-bottom: 1rem;
         padding-top: 5rem;
+    }
+
+    .how-header {
+        margin-top: 7rem;
     }
 
     .how-text {
@@ -1436,7 +1440,7 @@ textarea {
     }
 
     .how-img {
-        height: 33rem;
+        height: 28rem;
     }
 
     .top-blob {
@@ -1444,11 +1448,19 @@ textarea {
     }
 
     .how-title {
-        margin-top: -11rem;
+        margin-top: 63rem;
     }
 
     .minus-margin {
         margin-top: -9rem;
+    }
+
+    .how-header-sell {
+        margin-top: -76rem;
+    }
+
+    #buySection {
+        margin-top: 61rem;
     }
 
     .how-holder-final {
@@ -1456,15 +1468,23 @@ textarea {
     }
 
     #howBlob {
-        margin-top: -8rem;
+        margin-top: -12rem;
     }
 
     .how-holder, .how-holder-final {
         height: 40rem;
     }
 
+    .how-holder-final {
+        margin-bottom: 16rem;
+    }
+
     .mask {
-        height: 100vh;
+        height: 225vh;
+    }
+
+    .last-mask {
+        height: 156vh;
     }
 
     /* Footer */
@@ -1683,6 +1703,10 @@ textarea {
     }
 
     /* How It Works */
+    #howBlob {
+        margin-top: -15rem;
+    }
+
     .how-text {
         margin-bottom: 9rem;
     }
@@ -1695,12 +1719,28 @@ textarea {
         height: 44rem;
     }
 
-    .how-holder-final {
-        margin-bottom: -8rem;
+    .how-header-sell {
+        margin-top: -48rem;
     }
 
-    .how-header-sell {
-        margin-top: 15rem;
+    #buySection {
+        margin-top: 44rem;
+    }
+
+    .how-title {
+        margin-top: 38rem;
+    }
+
+    .how-holder-final {
+        margin-bottom: -4rem;
+    }
+
+    .mask {
+        height: 200vh;
+    }
+
+    .last-mask {
+        height: 130vh;
     }
 
     .card-info {
@@ -1716,6 +1756,21 @@ textarea {
     #footerBlob {
         margin-top: 2rem;
     }
+}
+
+@media (min-width: 1100px) {
+    .how-header-sell {
+        margin-top: -42rem;
+    }
+
+    #buySection {
+        margin-top: 36rem;
+    }
+
+    .how-title {
+        margin-top: 34rem;
+    }
+
 }
 
 @media (min-width: 1200px) {
@@ -1813,6 +1868,32 @@ textarea {
 
     #howBlob {
         margin-top: -8rem;
+    }
+
+    .how-header-sell {
+        margin-top: -45rem;
+    }
+
+    .how-title {
+        margin-top: 41rem;
+    }
+
+    #buySection {
+        margin-top: 44rem;
+    }
+}
+
+@media (min-width: 1300px) {
+    .how-header-sell {
+        margin-top: -36rem;
+    }
+
+    #buySection {
+        margin-top: 35rem;
+    }
+
+    .how-title {
+        margin-top: 34rem;
     }
 }
 
