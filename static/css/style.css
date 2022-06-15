@@ -333,6 +333,15 @@ a {
     padding: 0;
 }
 
+.shadow-nav {
+    width: 100%;
+    height: 1px;
+    padding: 0;
+    position: relative;
+    z-index: 5;
+    box-shadow: 0px 3px 6px 1px rgb(148 139 148 / 83%);
+}
+
 .wpc-logo {
     padding-left: 0.25rem;
 }
@@ -340,6 +349,24 @@ a {
 .navbar-brand {
     display: flex;
     align-items: center;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    width: 12%;
+    margin-right: 3%;
+    align-items: center;
+    position: absolute;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    top: 101%;
+    background-color: white;
+    z-index: 3;
+    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    box-shadow: 0px 4px 11px 0px rgb(148 139 148 / 83%);
 }
 
 .navbar-toggler {
@@ -1790,6 +1817,11 @@ textarea {
         font-size: calc(1.3rem);
     }
 
+    .navbar-nav .nav-link {
+        font-weight: 500;
+        font-size: 1.3rem;
+    }
+
     .cards > .thirty-percent {
         width: 31%;
     }
@@ -1944,6 +1976,10 @@ textarea {
         height: 45rem;
     }
 
+    #sellBlob {
+        margin-top: -8rem;
+    }
+
     .half-width > h2 {
         margin: 0.5rem;
     }
@@ -2009,8 +2045,21 @@ textarea {
 }
 
 @media (min-width: 1650px) {
+    .nav-logo {
+        height: 9rem;
+    }
+
+    .nav-info a, .nav-info h4 {
+        font-size: 1.7rem;
+    }
+
+    .navbar-toggler-icon {
+        width: 2.8em;
+        height: 2.8em;
+    }
+
     .container-xl {
-        max-width: 1580px;
+        max-width: 1500px;
     }
 
     .btn {
@@ -2019,7 +2068,12 @@ textarea {
 
     /* Sell Fine Wine */
     .timeline-holder {
-        padding-top: 10rem;
+        padding-top: 26rem;
+    }
+
+    .timeline {
+        padding-top: 6rem!important;
+        margin-top: -73rem;
     }
 
     .circle-oppo {
@@ -2027,9 +2081,26 @@ textarea {
         margin-right: 27rem;
     }
 
+    .circle {
+        padding: 10rem;
+        margin-left: 27rem;
+    }
+
+    .circle img, .circle-oppo img {
+        width: 60%;
+        height: auto;
+        position: absolute;
+        top: 65px;
+        left: 65px;
+    }
+
     .info-oppo {
         margin-right: 57rem;
         padding-left: 2.5rem!important;
+    }
+
+    .info, .info-oppo {
+        height: 18rem;
     }
 
     .free-valuation {
@@ -2040,6 +2111,10 @@ textarea {
         font-size: 1.3rem;
     }
 
+    .small-minus-margin {
+        margin-top: -10rem;
+    }
+
     /* Buy Fine Wine */
     td {
         font-size: 2rem;
@@ -2048,6 +2123,8 @@ textarea {
     .top-card {
         padding: 3rem!important;
     }
+
+    /* How It Works */
 
     .how-title {
         margin-top: 0rem;
@@ -2075,6 +2152,11 @@ textarea {
 
     .mask {
         height: 127vh;
+    }
+
+    /* Footer */
+    .about {
+        padding-top: 4rem;
     }
 }
 
