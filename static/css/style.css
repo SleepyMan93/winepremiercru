@@ -328,18 +328,18 @@ a {
 
 /* Navbar */
 .navbar {
-    box-shadow: 0px 1px 10px 1px rgb(148 139 148 / 83%);
-    z-index: 3;
+    z-index: 4;
     padding: 0;
+    margin-top: 7px;
 }
 
 .shadow-nav {
     width: 100%;
-    height: 1px;
+    height: 7px;
     padding: 0;
     position: relative;
-    z-index: 5;
-    box-shadow: 0px 3px 6px 1px rgb(148 139 148 / 83%);
+    z-index: 3;
+    box-shadow: 0px 8px 10px 1px rgb(148 139 148 / 17%);
 }
 
 .wpc-logo {
@@ -354,19 +354,19 @@ a {
 .navbar-collapse {
     flex-basis: 100%;
     flex-grow: 1;
-    width: 12%;
-    margin-right: 3%;
+    width: 36%;
+    margin-right: 5%;
     align-items: center;
     position: absolute;
     left: auto;
     right: 0;
     bottom: auto;
-    top: 101%;
+    top: 92.4%;
     background-color: white;
     z-index: 3;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
-    box-shadow: 0px 4px 11px 0px rgb(148 139 148 / 83%);
+    box-shadow: 0px 10px 12px 0px rgb(148 139 148 / 20%);
 }
 
 .navbar-toggler {
@@ -401,7 +401,7 @@ a {
 }
 
 .navbar-nav {
-    align-items: flex-end;
+    align-items: center;
 }
 
 .navbar-toggler:focus {
@@ -1275,7 +1275,7 @@ textarea {
 @media (min-width: 768px) {
 
     h5 {
-        font-size: calc(1.5rem);
+        font-size: calc(1.2rem);
     }
 
     .big-title {
@@ -1297,6 +1297,15 @@ textarea {
 
     .union-jack {
         padding-right: 1.5rem;
+    }
+
+    .navbar-collapse {
+        width: 22%;
+        margin-right: 3%;
+    }
+
+    .nav-link {
+        padding: 0.2rem 1rem;
     }
 
     .btn {
@@ -1350,7 +1359,7 @@ textarea {
     }
 
     .squish-text {
-        width: 42rem;
+        width: 41rem;
     }
 
     #sellBlob {
@@ -1558,6 +1567,11 @@ textarea {
         width: 30%;
     }
 
+    /* Navbar */
+    .navbar-collapse {
+        width: 18%;
+    }
+
     /* Index */
     #homeTitle {
         font-size: 3.6rem;
@@ -1568,7 +1582,7 @@ textarea {
     }
 
     .sell-wine {
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
 
     .sell-wine h1 {
@@ -1817,9 +1831,31 @@ textarea {
         font-size: calc(1.3rem);
     }
 
+    /* Navbar */
+
     .navbar-nav .nav-link {
         font-weight: 500;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
+
+    .union-jack {
+        padding-right: 3rem!important;
+    }
+
+    .logo-holder {
+        padding-left: 3rem!important;
+    }
+
+    .navbar-toggler-icon {
+        width: 2.5em;
+    }
+
+    .nav-logo {
+        height: 9rem;
     }
 
     .cards > .thirty-percent {
@@ -1828,6 +1864,12 @@ textarea {
 
     .btn {
         font-size: 1.6rem;
+    }
+
+    /* Navrbar */
+    .navbar-collapse {
+        width: 16%;
+        margin-right: 4%;
     }
 
     /* Index */
@@ -1919,7 +1961,7 @@ textarea {
     }
 
     .last-mask {
-        height: 250vh;
+        height: 185vh;
     }
 
     .how-header-sell {
@@ -1940,12 +1982,17 @@ textarea {
 }
 
 @media (min-width: 1300px) {
+     /* Navrbar */
+    .navbar-collapse {
+        width: 15%;
+    }
+
     .how-header-sell {
         margin-top: -36rem;
     }
 
     #buySection {
-        margin-top: 51rem;
+        margin-top: 52rem;
     }
 
     .how-title {
@@ -1954,6 +2001,12 @@ textarea {
 }
 
 @media (min-width: 1400px) {
+     /* Navrbar */
+     .navbar-collapse {
+        width: 14%;
+        margin-right: 4%;
+    }
+
     .thirty-percent {
         width: 27%;
     }
@@ -1968,6 +2021,11 @@ textarea {
 
     .minus-margin {
         margin-top: -15rem;
+    }
+
+    /* Index */
+    .sell-wine h5 {
+        font-size: calc(1.3rem);
     }
 
     /* Sell Fine Wine */
@@ -2012,7 +2070,11 @@ textarea {
     }
 
     .how-header-sell {
-        margin-top: 17rem;
+        margin-top: -57rem;
+    }
+
+    .how-title {
+        margin-top: 57rem;
     }
 
     .how-text {
@@ -2023,8 +2085,8 @@ textarea {
         height: 38rem;
     }
 
-    .how-header, .how-header-sell {
-        margin-top: 21rem;
+    #buySection {
+        margin-top: 54rem;
     }
 
     .bottom-section {
@@ -2036,7 +2098,11 @@ textarea {
     }
 
     .mask {
-        height: 120vh;
+        height: 214vh;
+    }
+
+    .last-mask {
+        height: 180vh;
     }
 
     .corking-review {
@@ -2044,7 +2110,32 @@ textarea {
     }
 }
 
+@media (min-width: 1500px) {
+    /* Navrbar */
+    .navbar-collapse {
+        width: 13%;
+        margin-right: 3%;
+    }
+    
+    .navbar-nav .nav-link {
+        font-size: 1.3rem;
+    }
+}
+
 @media (min-width: 1650px) {
+    .container-xl {
+        max-width: 1500px;
+    }
+
+    .btn {
+        font-size: 2rem;
+    }
+
+    /* Navrbar */
+    .navbar-collapse {
+        width: 13%;
+    } 
+
     .nav-logo {
         height: 9rem;
     }
@@ -2056,14 +2147,6 @@ textarea {
     .navbar-toggler-icon {
         width: 2.8em;
         height: 2.8em;
-    }
-
-    .container-xl {
-        max-width: 1500px;
-    }
-
-    .btn {
-        font-size: 2rem;
     }
 
     /* Sell Fine Wine */
@@ -2126,10 +2209,6 @@ textarea {
 
     /* How It Works */
 
-    .how-title {
-        margin-top: 0rem;
-    }
-
     .minus-margin {
         margin-top: -16rem;
     }
@@ -2148,10 +2227,6 @@ textarea {
 
     .bottom-section {
         margin-bottom: 9rem;
-    }
-
-    .mask {
-        height: 127vh;
     }
 
     /* Footer */
