@@ -1206,54 +1206,50 @@ textarea {
    background: #ddbaba;
    -webkit-transition: all 3s;
    transition: all 3s;
+   transition-timing-function: cubic-bezier(0.40, 1.0, 0.4o, 1.0);
    transform: translateY(0%);
-   opacity: 1;
 }
 
 .smoke {
     background: #f8efef;
     transform: translateY(40%);
-    opacity: 0;
 }
 
 .brown {
     background: #c89090;
     -webkit-transition: all 3s;
     transition: all 3s;
+    transition-timing-function: cubic-bezier(0.60, 1.0, 0.60, 1.0);
     transform: translateY(0%);
-    opacity: 1;
 }
 
 .no-pink {
     background: #ddbaba;
     transform: translateY(40%);
-    opacity: 0;
 }
 
 /* Blob Change */
 
 .blob-smoke {
     fill: #f8efef;
-    opacity: 0;
 }
 
 .fillPink {
     fill: #ddbaba;
     -webkit-transition: all 3s;
     transition: all 3s;
-    opacity: 1;
+    transition-timing-function: cubic-bezier(0.35, 1.0, 0.35, 1.0);
 }
 
 .blob-pink {
     fill: #ddbaba;
-    opacity: 0;
 }
 
 .fillBrown {
     fill: #c89090;
     -webkit-transition: all 3s;
     transition: all 3s;
-    opacity: 1;
+    transition-timing-function: cubic-bezier(0.60, 1.0, 0.60, 1.0);
 }
 
 .mask {
