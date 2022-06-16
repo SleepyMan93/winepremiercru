@@ -380,8 +380,8 @@ a {
 }
 
 .navbar-toggler-icon {
-    width: 1.8em;
-    height: 1.8em;
+    width: 1.3em;
+    height: 1.3em;
 }
 
 .nav-title {
@@ -391,7 +391,7 @@ a {
 
 .nav-logo {
     width: auto;
-    height: 7rem;
+    height: 5rem;
     margin-right: 1rem;
 }
 
@@ -1156,9 +1156,13 @@ textarea {
 /* Our Story */
 
 .our-img {
-    height: 40rem;
+    height: 20rem;
     width: 100%;
     object-fit: cover;
+}
+
+.our-story-text h5 {
+    font-size: calc(1rem);
 }
 
 .our-story-text {
@@ -1168,8 +1172,28 @@ textarea {
     flex-wrap: wrap;
 }
 
+.story-blob {
+    margin-bottom: 0rem;
+    margin-top: -3rem;
+
+}
+
 .our-cards {
     height: 22rem;
+}
+
+.front > .big-title {
+    font-size: calc(2rem + 1.5vw);
+    z-index: 2;
+}
+
+.front img {
+    height: inherit;
+    position: absolute;
+}
+
+.back h4 {
+    font-size: calc(1.1rem + .3vw);
 }
 
 /* Animation */
@@ -1287,6 +1311,12 @@ textarea {
         justify-content: center;
     }
 
+    .nav-logo {
+        width: auto;
+        height: 7rem;
+        margin-right: 1rem;
+    }
+
     .wpc-logo {
         padding-left: 1.5rem;
     }
@@ -1304,9 +1334,15 @@ textarea {
         padding: 0.2rem 1rem;
     }
 
+    .navbar-toggler-icon {
+        width: 1.8em;
+        height: 1.8em;
+    }
+
     .btn {
         font-size: 1.5rem;
     }
+    
 
     /* Index */
     .home-info {
@@ -1517,6 +1553,15 @@ textarea {
 
     .last-mask {
         height: 143vh;
+    }
+
+    /* Our Story */
+    .story-blob {
+        margin-top: -7rem;
+    }
+
+    .story-cards {
+        padding-top: 3rem;
     }
 
     /* Footer */
@@ -1796,6 +1841,19 @@ textarea {
         padding: 3rem!important;
     }
 
+    /* Our Story */
+    .our-img {
+        height: 30rem;
+    }
+
+    .story-blob {
+        margin-top: -16rem;
+    }
+
+    .story-cards {
+        padding-top: 5rem;
+    }
+
     /* Footer */
     .about {
         padding-top: 3.5rem;
@@ -1974,6 +2032,11 @@ textarea {
 
     .how-holder-final {
         margin-bottom: 16rem;
+    }
+
+    /* Our Story */
+    .story-cards {
+        padding-top: 5rem;
     }
 }
 
