@@ -366,7 +366,7 @@ a {
     z-index: 3;
     border-bottom-right-radius: 20%;
     border-bottom-left-radius: 20%;
-    box-shadow: 0px 10px 12px 0px rgb(148 139 148 / 20%);
+    box-shadow: 0px 14px 12px 0px rgb(148 139 148 / 15%);
 }
 
 .navbar-toggler {
@@ -1165,6 +1165,13 @@ textarea {
     font-size: calc(1rem);
 }
 
+.our-text {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
 .our-story-text {
     display: flex;
     justify-content: center;
@@ -1848,6 +1855,10 @@ textarea {
 
     .story-cards {
         padding-top: 5rem;
+    }
+
+    .our-text > .col-lg-6 {
+        margin-right: 2.5rem;
     }
 
     /* Footer */

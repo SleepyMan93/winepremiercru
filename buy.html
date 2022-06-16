@@ -34,7 +34,8 @@
       {
         // Your API KEY
         const API_KEY = "AIzaSyCDHsmJADu8ycy0nK-Rm5JfAPzQpkM0MDU";
-  
+        var tableFill;
+
         function displayResult2(response) {
           let tableHead = "";
           let tableBody = "";
@@ -50,7 +51,7 @@
               tableBody += "</tr>";
             }
           });
-  
+          
           document.getElementById("tableHeader").innerHTML = tableHead;
           document.getElementById("tableResults").innerHTML = tableBody;
         }
@@ -58,7 +59,7 @@
         function loadData() {
           // Spreadsheet ID
           const spreadsheetId = "1CxxkECtRkYnNItAnf7uJMTd50x2dAFjNWbXP5acDJQY";
-          const range = "A:Z";
+          const range = "Bordeaux!A1:F900";
           getPublicValues({ spreadsheetId, range }, displayResult2);
         }
   
@@ -278,6 +279,7 @@
             <div class="col-12 search-middle">
               <div class="col-6">
                 <input type="text" id="myInput" class="rounded-3 form-control" placeholder="Search Our Wines..."><br>
+                <p><button onclick="displayResult2()">Sort</button></p>
               </div>
             </div>
 
@@ -293,12 +295,93 @@
                 </tr>
               </thead>
                 <tbody class="body" id="tableResults">
+                  <!--Angelus-->
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
+                    <td>IB</td>
+                  </tr>
+                  <tr>
+                    <td>Angelus</td>
+                    <td>2004</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>2700</td>
+                    <td>1</td>
                     <td>IB</td>
                   </tr>
                 </tbody>
