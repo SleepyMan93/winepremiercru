@@ -1516,7 +1516,7 @@ textarea {
     }
 
     .how-title {
-        margin-top: 63rem;
+        margin-top: 42rem;
     }
 
     .minus-margin {
@@ -1524,15 +1524,11 @@ textarea {
     }
 
     .how-header-sell {
-        margin-top: -76rem;
+        margin-top: -54rem;
     }
 
     #buySection {
-        margin-top: 61rem;
-    }
-
-    .how-holder-final {
-        margin-bottom: -5rem;
+        margin-top: 38rem;
     }
 
     #howBlob {
@@ -1544,7 +1540,7 @@ textarea {
     }
 
     .how-holder-final {
-        margin-bottom: 23rem;
+        margin-bottom: 10rem;
     }
 
     .mask {
@@ -1552,7 +1548,7 @@ textarea {
     }
 
     .last-mask {
-        height: 143vh;
+        height: 90vh;
     }
 
     /* Our Story */
@@ -1830,8 +1826,8 @@ textarea {
     }
 
     .last-mask {
-        height: 178vh;
-    }
+        height: 105vh;
+    }    
 
     .card-info {
         padding-right: 0rem;
@@ -2015,7 +2011,7 @@ textarea {
     }
 
     .last-mask {
-        height: 185vh;
+        height: 140vh;
     }
 
     .how-header-sell {
@@ -2047,7 +2043,7 @@ textarea {
     }
 
     .how-header-sell {
-        margin-top: -36rem;
+        margin-top: -58rem;
     }
 
     #buySection {
@@ -2161,7 +2157,7 @@ textarea {
     }
 
     .last-mask {
-        height: 180vh;
+        height: 140vh;
     }
 
     .corking-review {
@@ -2274,6 +2270,10 @@ textarea {
 
     .sell-fine-wine, .sell-fine-wine-how {
         height: 23rem;
+    }
+
+    .how-title {
+        margin-top: 59rem;
     }
 
     #howBlob {
