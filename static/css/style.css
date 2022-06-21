@@ -314,6 +314,10 @@ a {
     z-index: 2;
 }
 
+.beige-background-2 {
+    background: #F4E8DD;
+}
+
 .white {
     color: white;
 }
@@ -768,11 +772,28 @@ table {
 
 .table-search {
     width: 100%;
+    font-size: 1.2rem;
     box-shadow: 1px 1px 10px 1px rgb(100,60,124, 0.5);
 }
 
 .table-search input {
     width: 100%;
+}
+
+div.table-responsive>div.dataTables_wrapper>div.row {
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+div.dataTables_wrapper div.dataTables_filter label {
+    width: 70%;
+    text-align: right!important;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: .5em;
+    display: inline-block;
+    width: inherit!important;
 }
 
 .header {
@@ -1131,7 +1152,7 @@ textarea {
 }
 
 .how-header-sell {
-    margin-top: -46rem;
+    margin-top: -50rem;
 }
 
 /*
@@ -1594,7 +1615,7 @@ textarea {
     }
 
     .how-header-sell {
-        margin-top: -54rem;
+        margin-top: -60rem;
     }
 
     #buySection {
@@ -1883,10 +1904,6 @@ textarea {
         height: 44rem;
     }
 
-    .how-header-sell {
-        margin-top: -56rem;
-    }
-
     #buySection {
         margin-top: 44rem;
     }
@@ -1953,9 +1970,6 @@ textarea {
 }
 
 @media (min-width: 1100px) {
-    .how-header-sell {
-        margin-top: -54rem;
-    }
 
     #buySection {
         margin-top: 42rem;
@@ -2101,7 +2115,7 @@ textarea {
     }
 
     .how-header-sell {
-        margin-top: -59rem;
+        margin-top: -65rem;
     }
 
     .how-title {
