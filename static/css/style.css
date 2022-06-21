@@ -1053,6 +1053,11 @@ textarea {
     box-shadow: 0 0 0 0.25rem rgb(100 60 124 / 40%);
 }
 
+.page-link:hover {
+    color: #643c7c;
+    background-color: #ffffff;
+}
+
 /* Free Valuation wave */
 
 .flip-wave {
