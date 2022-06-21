@@ -115,7 +115,7 @@ body {
 
 .btn {
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 
 .btn:hover {
@@ -454,7 +454,19 @@ a {
 }
 
 .union-jack img {
-    height: 3rem;
+    height: 2rem;
+}
+
+/* Elfsight */
+.dKUmIt a {
+    display: none!important;
+}
+
+.fhFXwt {
+    line-height: 1.02!important;
+    border-radius: 2%!important;
+    box-shadow: rgb(0 0 0 / 18%) 0px 4px 12px 0px!important;
+    color: #643c7c!important;
 }
 
 /* Sell Wine */
@@ -724,7 +736,7 @@ a {
 }
 
 #homeTitle {
-    font-size: calc(4.5rem + 1vw);
+    font-size: calc(2.5rem + 1vw);
 }
 
 .home-buttons {
@@ -1396,7 +1408,6 @@ textarea {
         padding-left: 0rem;
         height: 42rem;
         padding-top: 1rem;
-        align-items: center;
     }
 
     .home-info h5 {
@@ -1492,7 +1503,7 @@ textarea {
     .info {
         margin-left: 28rem;
         margin-right: -2.25rem;
-        padding-right: 0.5rem!important;
+        padding-right: 1.5rem!important;
     }
 
     .info-oppo {
@@ -1666,6 +1677,10 @@ textarea {
     /* Navbar */
     .navbar-collapse {
         width: 18%;
+    }
+
+    .union-jack img {
+        height: 3rem;
     }
 
     /* Index */
@@ -1976,10 +1991,6 @@ textarea {
         padding-left: 3rem!important;
     }
 
-    .navbar-toggler-icon {
-        width: 2.5em;
-    }
-
     .nav-logo {
         height: 9rem;
     }
@@ -2061,7 +2072,7 @@ textarea {
     }
 
     .timeline-holder {
-        padding-top: 10rem;
+        padding-top: 15rem;
     }
 
     .card-info {
@@ -2285,8 +2296,8 @@ textarea {
     }
 
     .navbar-toggler-icon {
-        width: 2.8em;
-        height: 2.8em;
+        width: 2.4em;
+        height: 2.4em;
     }
 
     /*Index*/
@@ -2376,6 +2387,11 @@ textarea {
 
     .bottom-section {
         margin-bottom: 9rem;
+    }
+
+    /* Our Story */
+    .story-cards {
+        padding-top: 8rem;
     }
 
     /* Footer */
