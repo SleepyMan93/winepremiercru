@@ -772,7 +772,7 @@ table {
 
 .table-search {
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     box-shadow: 1px 1px 10px 1px rgb(100,60,124, 0.5);
 }
 
@@ -1471,6 +1471,8 @@ textarea {
         font-size: 1.1rem;
     }
 
+    /* Buy Fine Wine */
+
     /* Sell Fine Wine */
     .portfolio > .bend-title > .sub-title {
         font-size: calc(2.5rem + 1.5vw);
@@ -1652,13 +1654,17 @@ textarea {
     }
 
     /* Footer */
+    .build-holder {
+        display: block;
+    }
+
     .about {
-        padding-top: 3rem;
+        padding-top: 3.3rem;
         margin-right: 1rem;
     }
 
     .about h1 {
-        font-size: calc(4rem + 1.5vw);
+        font-size: calc(2rem + 1.5vw);
     }
 
     #footerBlob {
@@ -2093,6 +2099,8 @@ textarea {
         padding-right: 6rem;
     }
 
+    /* Buy Fine Wine */
+
     /* How It Works */
     .how-text {
         margin-bottom: 13rem;
@@ -2227,6 +2235,11 @@ textarea {
 
     .timeline-holder {
         padding-top: 16rem;
+    }
+
+    /* Buy Fine Wine */
+    table.dataTable {
+        width: 1246px!important;
     }
 
     #bookNow {
@@ -2375,6 +2388,14 @@ textarea {
 
     .top-card {
         padding: 3rem!important;
+    }
+
+    table.dataTable {
+        width: 1426px!important;
+    }
+
+    .table-search {
+        font-size: 1.2rem;
     }
 
     /* How It Works */
