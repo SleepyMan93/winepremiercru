@@ -105,7 +105,6 @@
     </div>
 
     <div class="col-3 pe-4 union-jack p-1">
-      <img src="/static/images/homepage/union jack.png" class="pe-1" alt="Union Jack">
       <button class="navbar-toggler ps-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -269,7 +268,68 @@
               <h2 class="bold white free-valuation">
                 Request A Free Evaluation
               </h2>
-              <button type="button" id="bookNow" class="btn ms-5 rounded purple-button box-shadow">Contact Us</button>
+
+              <!-- Button trigger modal -->
+              <button type="button" class="btn ms-1 rounded purple-button box-shadow" data-bs-toggle="modal" data-bs-target="#buyModal">Free Evaluation</button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="row g-3 p-3" form action="https://formcarry.com/s/VrZC5Fo00n4" method="POST" accept-charset="UTF-8" >
+                        <div class="col-md-12">
+                          <label for="inputName" class="form-label bold pb-2">Full Name</label>
+                          <input type="text" name="FullName" class="form-control" id="inputName" placeholder="Full Name">
+                        </div>
+                        <div class="col-md-12">
+                          <label for="inputAddress" class="form-label bold pb-2">Address</label>
+                          <input type="text" name="StreetAddress" class="form-control" id="inputAddress" placeholder="Street Address">
+                        </div>
+
+                        <div class="col-md-4  form-no-margin">
+                          <label for="inputCity" class="form-label"></label>
+                          <input type="text" name="City" class="form-control" id="inputCity" placeholder="City">
+                        </div>
+                        <div class="col-md-4  form-no-margin">
+                          <label for="inputCounty" class="form-label"></label>
+                          <input type="text" name="County" class="form-control" id="inputCounty" placeholder="County">
+                        </div>
+                        <div class="col-md-4  form-no-margin">
+                          <label for="inputPostCode" class="form-label"></label>
+                          <input type="text" name="PostCode" class="form-control" id="inputPostCode" placeholder="Post Code">
+                        </div>
+
+
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label bold pb-2">Contact Information</label>
+                          <input type="email" name="Email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="col-md-6 form-top-margin">
+                          <label for="inputNumber" class="form-label bold pb-2"></label>
+                          <input type="text" name="ContactNumber" class="form-control" id="inputNumber" placeholder="Phone">
+                        </div>
+
+                        <div class="col-12">
+                          <label for="textArea" class="form-label bold pb-2">Questions / Enquiry</label>
+                          <textarea class="form-control" placeholder="Message" name="Message" id="textArea"></textarea>
+                        </div>
+
+                        <div class="col-12 center-button">
+                          <button type="submit" value="submit" aria-label="Submit" class="btn form-button">
+                            <span class="button-control">
+                              <span class="button-holder">Submit</span>
+                            </span>
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -3882,13 +3942,33 @@
 
                   <!--Marchesi di Barolo-->
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>Marchesi di Barolo</td>
+                    <td>2004</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£250</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+
+                  <!--Pingus-->
+                  <tr>
+                    <td>Pingus</td>
+                    <td>2006</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£3,940</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Pingus</td>
+                    <td>2007</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£7,600</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
                   </tr>
 
                   <!--Masseto-->
@@ -3983,107 +4063,443 @@
                     <td>Australia</td>
                   </tr>
 
-                  <!--Ornellaia
+                  <!--Ornellaia-->
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
+                    <td>Ornellaia</td>
+                    <td>1996</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£225</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>1998</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£275</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2000</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,300</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2001</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,500</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2002</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,100</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2003</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,025</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2004</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,250</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2005</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£225</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2006</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,200</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2008</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£915</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2009</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£950</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Ornellaia</td>
+                    <td>2010</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£950</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+
+                  <!--Sassicaia-->
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2000</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£200</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2001</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£3,130</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2002</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,200</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2003</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,125</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2004</td>
+                    <td>BOTTLE (150cl)</td>
+                    <td>£500</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2005</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,550</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2006</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,750</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2007</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,475</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2008</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,550</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2010</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£2,300</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Sassicaia</td>
+                    <td>2011</td>
+                    <td>CASE (12x75cl)</td>
+                    <td>£1,900</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+
+                  <!--Solaia-->
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2000</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£200</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2001</td>
+                    <td>CASE (6x75cl)</td>
                     <td>£</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
+                    <td>Solaia</td>
+                    <td>2003</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£215</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2005</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£300</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2006</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,550</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2007</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,425</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
+                    <td>2008</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,200</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
+                  </tr>
+                  <tr>
+                    <td>Solaia</td>
                     <td></td>
-                    <td>CASE (75cl)</td>
+                    <td>CASE (12x75cl)</td>
                     <td>£</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Solaia</td>
+                    <td>2009</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,225</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Solaia</td>
+                    <td>2010</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,315</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
+                  </tr>
+
+                  <!--Tignanello-->
+                  <tr>
+                    <td>Tignanello</td>
+                    <td>2004</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,000</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2007</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£675</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2008</td>
+                    <td>BOTTLE (75cl)</td>
+                    <td>£115</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2009</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£575</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2010</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£715</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2011</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£555</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Tignanello</td>
+                    <td>2012</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£525</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>Italian</td>
+                  </tr>
+
+                  <!--Harlan Estate / USA-->
+                  <tr>
+                    <td>Harlan Estate</td>
+                    <td>1997</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£8,250</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>USA</td>
                   </tr>
                   <tr>
-                    <td>Penfolds Grange</td>
-                    <td></td>
-                    <td>CASE (75cl)</td>
-                    <td>£</td>
+                    <td>Harlan Estate</td>
+                    <td>2010</td>
+                    <td>CASE (3x150cl)</td>
+                    <td>£7,000</td>
                     <td>1</td>
                     <td>IB</td>
-                    <td>Australia</td>
+                    <td>USA</td>
                   </tr>
-                  -->
+                  <tr>
+                    <td>Harlan Estate</td>
+                    <td>2011</td>
+                    <td>BOTTLE (150cl)</td>
+                    <td>£1,650</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>USA</td>
+                  </tr>
+                  <tr>
+                    <td>Harlan Estate</td>
+                    <td>2014</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£4,000</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>USA</td>
+                  </tr>
+
+                  <!--Kayli Morgan-->
+                  <tr>
+                    <td>Kayli Morgan</td>
+                    <td>2013</td>
+                    <td>CASE (3x75cl)</td>
+                    <td>£950</td>
+                    <td>1</td>
+                    <td>IB</td>
+                    <td>USA</td>
+                  </tr>
+
+                  <!--Opus One-->
+                  <tr>
+                    <td>Opus One</td>
+                    <td>2009</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,600</td>
+                    <td>2</td>
+                    <td>IB</td>
+                    <td>USA</td>
+                  </tr>
+                  <tr>
+                    <td>Kayli Morgan</td>
+                    <td>2011</td>
+                    <td>CASE (6x75cl)</td>
+                    <td>£1,660</td>
+                    <td>2</td>
+                    <td>IB</td>
+                    <td>USA</td>
+                  </tr>
+                  
               </tbody>
             </table>
 
@@ -4207,6 +4623,10 @@
     $(document).ready( function () {
       $('#data').DataTable();
     });
+  </script>
+
+  <script>
+    $('#buyModal').appendTo("body") 
   </script>
 </body>
 </html>

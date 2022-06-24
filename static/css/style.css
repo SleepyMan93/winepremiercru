@@ -247,6 +247,47 @@ a {
     text-decoration: none;
 }
 
+/* Form */
+.center-button {
+    text-align: center;
+}
+
+.form-top-margin {
+    margin-top: 1.5rem;
+}
+
+.form-no-margin {
+    margin-top: 0rem;
+}
+
+.form-button {
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: inherit;
+    font-style: normal;
+    background-color: rgb(100, 60, 124);
+}
+
+.button-control {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: inherit;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0px 11px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.button-holder {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 /* Colours */
 
 .yellow {
@@ -810,7 +851,18 @@ div.dataTables_wrapper div.dataTables_filter input {
 
 .form-control {
     border: 1px solid #643c7c;
-    border-radius: 1.5rem
+    border-radius: 0.5rem;
+    padding: 9.9px 15px;
+    border-width: 1px;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.32;
+    border-color: rgba(17, 17, 17, 0.2);
+    background: rgba(100, 60, 124, 0.06);
+    color: rgb(17, 17, 17);
+    opacity: 1;
 }
 
 td, th {
@@ -955,6 +1007,9 @@ form {
 
 .form-section {
     padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 textarea {
@@ -1100,7 +1155,6 @@ textarea {
 
 .wave-book {
     height: 5rem;
-    position: relative;
     z-index: 4;
     margin-top: -2px;
 }

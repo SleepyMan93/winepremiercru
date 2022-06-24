@@ -82,7 +82,67 @@
             <a href="sell.html">
               <button type="button" class="btn me-1 rounded red-button box-shadow">Sell My Wine</button>
             </a>
-            <button type="button" class="btn ms-1 rounded purple-button box-shadow">Free Evaluation</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn ms-1 rounded purple-button box-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Evaluation</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="row g-3 p-3" form action="https://formcarry.com/s/VrZC5Fo00n4" method="POST" accept-charset="UTF-8" >
+                      <div class="col-md-12">
+                        <label for="inputName" class="form-label bold pb-2">Full Name</label>
+                        <input type="text" name="FullName" class="form-control" id="inputName" placeholder="Full Name">
+                      </div>
+                      <div class="col-md-12">
+                        <label for="inputAddress" class="form-label bold pb-2">Address</label>
+                        <input type="text" name="StreetAddress" class="form-control" id="inputAddress" placeholder="Street Address">
+                      </div>
+
+                      <div class="col-md-4  form-no-margin">
+                        <label for="inputCity" class="form-label"></label>
+                        <input type="text" name="City" class="form-control" id="inputCity" placeholder="City">
+                      </div>
+                      <div class="col-md-4  form-no-margin">
+                        <label for="inputCounty" class="form-label"></label>
+                        <input type="text" name="County" class="form-control" id="inputCounty" placeholder="County">
+                      </div>
+                      <div class="col-md-4  form-no-margin">
+                        <label for="inputPostCode" class="form-label"></label>
+                        <input type="text" name="PostCode" class="form-control" id="inputPostCode" placeholder="Post Code">
+                      </div>
+
+
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label bold pb-2">Contact Information</label>
+                        <input type="email" name="Email" class="form-control" id="inputEmail4" placeholder="Email">
+                      </div>
+                      <div class="col-md-6 form-top-margin">
+                        <label for="inputNumber" class="form-label bold pb-2"></label>
+                        <input type="text" name="ContactNumber" class="form-control" id="inputNumber" placeholder="Phone">
+                      </div>
+
+                      <div class="col-12">
+                        <label for="textArea" class="form-label bold pb-2">Questions / Enquiry</label>
+                        <textarea class="form-control" placeholder="Message" name="Message" id="textArea"></textarea>
+                      </div>
+
+                      <div class="col-12 center-button">
+                        <button type="submit" value="submit" aria-label="Submit" class="btn form-button">
+                          <span class="button-control">
+                            <span class="button-holder">Submit</span>
+                          </span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         
