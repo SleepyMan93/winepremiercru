@@ -1280,6 +1280,44 @@ textarea {
     margin-top: 0rem;
 }
 
+/* Invest */
+.accordion-button::after {
+    width: 0;
+    height: 0;
+    display: contents;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(176 176 176 / 25%);
+}
+
+.accordion-button i {
+    margin-left: auto;
+    border: 1px solid rgb(147, 147, 147);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: inset 5px 0px 0 rgb(100 60 123)!important;
+}
+
+.accordion-button:not(.collapsed) i {
+    rotate: 180deg;
+    background-color: #643c7c;
+    border: 1px solid #643C7C;
+    color: white;
+}
+
+.accordion-flush .accordion-collapse {
+    background-color: rgba(100, 60, 124, 0.06);
+}
+
 /* Our Story */
 
 .our-img {
