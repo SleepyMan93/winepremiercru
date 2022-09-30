@@ -974,6 +974,19 @@ td, th {
     z-index: 5;
 }
 
+.faq-holder {
+    display: flex;
+    justify-content: center;
+    height: 37rem;
+    position: relative;
+    z-index: 5;
+}
+
+.faqs {
+    padding: 100px 10px;
+    box-shadow: 0px 0px 5px 3px #643c7b6b;
+}
+
 .form-label {
     margin: 0rem;
 }
@@ -1645,6 +1658,10 @@ textarea {
 
     .big-top-margin {
         margin-top: 11rem;
+    }
+
+    .big-top-margin-1 {
+        margin-top: 10rem;
     }
 
     .thirty-percent {
