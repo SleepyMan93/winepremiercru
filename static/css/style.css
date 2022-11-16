@@ -65,6 +65,10 @@ h2 {
     font-size: calc(1.8rem + 1.5vw);
 }
 
+h3 {
+    font-size: calc(1.3rem + .5vw);
+}
+
 h5 {
     font-size: calc(1.1rem);
 }
@@ -1322,7 +1326,7 @@ textarea {
     justify-content: center;
     position: relative;
     z-index: 5;
-    margin-top: -6rem;
+    margin-top: -1rem;
 }
 
 .faqs {
@@ -1606,7 +1610,7 @@ textarea {
 
     /* Index */
     .home-info {
-        padding-left: 0rem;
+        padding-left: 2rem;
         height: 42rem;
         padding-top: 1rem;
     }
@@ -2174,8 +2178,8 @@ textarea {
 
     /* Investment */
     #investTitle {
-        margin-top: -2rem;
-        margin-bottom: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 2rem;
     }
 
     #howHolderFinal, #howHolder, #howHolder2 {
@@ -2186,8 +2190,12 @@ textarea {
         height: 114vh;
     }
 
+    .faq-holder {
+        margin-top: -6rem;
+    }
+
     .investment-border {
-        border-radius: 2.25rem 0rem 0rem 2.25rem;
+        border-radius: 2.25rem 0rem 0rem 2.25rem!important;
     }
 
     /* Footer */
@@ -2560,6 +2568,11 @@ textarea {
     .navbar-nav .nav-link {
         font-size: 1.3rem;
     }
+
+    /* Investment */
+    .faq-holder {
+        margin-top: -6rem;
+    }
 }
 
 @media (min-width: 1650px) {
@@ -2694,6 +2707,12 @@ textarea {
     /* Investment */
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 22rem;
+    }
+
+    #investTitle {
+        margin-top: 10rem;
+        margin-bottom: 4rem;
+        padding-bottom: 2rem!important;
     }
 
     /* Footer */
