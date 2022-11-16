@@ -974,19 +974,6 @@ td, th {
     z-index: 5;
 }
 
-.faq-holder {
-    display: flex;
-    justify-content: center;
-    height: 37rem;
-    position: relative;
-    z-index: 5;
-}
-
-.faqs {
-    padding: 100px 10px;
-    box-shadow: 0px 0px 5px 3px #643c7b6b;
-}
-
 .form-label {
     margin: 0rem;
 }
@@ -1301,6 +1288,26 @@ textarea {
     justify-content: space-between;
 }
 
+#lastMaskI {
+    height: 132vh;
+}
+
+#howHolderFinal, #howHolder, #howHolder2 {
+    height: 67rem;
+}
+
+.faq-holder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+}
+
+.faqs {
+    padding: 100px 10px;
+    box-shadow: 0px 0px 5px 3px #643c7b6b;
+}
+
 .accordion-button::after {
     width: 0;
     height: 0;
@@ -1483,6 +1490,42 @@ textarea {
 }
 
 /* Media Queries */
+
+@media (min-width: 414px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 61rem;
+    }
+}
+
+@media (min-width: 455px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 57rem;
+    }
+}
+
+@media (min-width: 500px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 56rem;
+    }
+}
+
+@media (min-width: 550px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 54rem;
+    }
+}
+
+@media (min-width: 550px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 51rem;
+    }
+}
+
+@media (min-width: 680px) {
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 49rem;
+    }
+}
 
 @media (min-width: 768px) {
 
@@ -1767,6 +1810,15 @@ textarea {
 
     .story-cards {
         padding-top: 3rem;
+    }
+
+    /* Investment */ 
+    #howHolderFinal {
+        margin-bottom: 0rem;
+    }
+
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 42rem;
     }
 
     /* Footer */
@@ -2075,6 +2127,11 @@ textarea {
         margin-right: 6rem;
     }
 
+    /* Investment */
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 31rem;
+    }
+
     /* Footer */
     .about {
         padding-top: 3.6rem;
@@ -2266,6 +2323,19 @@ textarea {
     .about h1, .build-holder h1 {
         font-size: calc(3rem + 1.5vw);
     }
+
+    /* Investment */
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 31rem;
+    }
+
+    #howHolderFinal {
+        margin-bottom: 0rem;
+    }
+
+    #howHolder {
+        margin-bottom: 4rem;
+    }
 }
 
 @media (min-width: 1300px) {
@@ -2284,6 +2354,11 @@ textarea {
 
     .how-title {
         margin-top: 56rem;
+    }
+
+    /* Investment */
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 29rem;
     }
 }
 
@@ -2405,6 +2480,11 @@ textarea {
 
     .corking-review {
         margin-top: -7rem;
+    }
+
+    /* Investment */
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 25rem;
     }
 }
 
@@ -2547,6 +2627,11 @@ textarea {
     /* Our Story */
     .story-cards {
         padding-top: 8rem;
+    }
+
+    /* Investment */
+    #howHolderFinal, #howHolder, #howHolder2 {
+        height: 22rem;
     }
 
     /* Footer */
