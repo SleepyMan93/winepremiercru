@@ -1281,6 +1281,27 @@ textarea {
 }
 
 /* Invest */
+#bigTitle {
+    font-size: calc(2.6rem + 1.5vw);
+    margin-bottom: 0rem;
+}
+
+#textHolder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+#investTitle {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+}
+
+.invest-top-margin {
+    margin-top: 8rem;
+}
+
 .invest-text {
     display: flex;
     flex-direction: row;
@@ -1301,11 +1322,15 @@ textarea {
     justify-content: center;
     position: relative;
     z-index: 5;
+    margin-top: -6rem;
 }
 
 .faqs {
-    padding: 100px 10px;
-    box-shadow: 0px 0px 5px 3px #643c7b6b;
+    padding: 35px 10px;
+}
+
+#faqOne, #faqTwo, #faqThree, #faqFour, #faqFive  {
+    border: 1px solid black;
 }
 
 .accordion-button::after {
@@ -1813,12 +1838,32 @@ textarea {
     }
 
     /* Investment */ 
+    #textHolder {
+        align-items: flex-start;
+    }
+
+    #lastMaskI {
+        height: 103vh;
+    }
+
+    #mask {
+        height: 175vh;
+    }
+
     #howHolderFinal {
         margin-bottom: 0rem;
     }
 
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 42rem;
+    }
+
+    #horizontalCenter, #horizontalCenter2 {
+        justify-content: space-around;
+    }
+
+    .faq-holder {
+        margin-top: -3rem;
     }
 
     /* Footer */
@@ -2128,8 +2173,21 @@ textarea {
     }
 
     /* Investment */
+    #investTitle {
+        margin-top: -2rem;
+        margin-bottom: 1rem;
+    }
+
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 31rem;
+    }
+
+    #mask {
+        height: 114vh;
+    }
+
+    .investment-border {
+        border-radius: 2.25rem 0rem 0rem 2.25rem;
     }
 
     /* Footer */
@@ -2485,6 +2543,10 @@ textarea {
     /* Investment */
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 25rem;
+    }
+
+    #mask {
+        height: 190vh;
     }
 }
 
