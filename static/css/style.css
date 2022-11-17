@@ -1306,6 +1306,10 @@ textarea {
     margin-top: 8rem;
 }
 
+.investment-border {
+    padding: 1rem;
+}
+
 .invest-text {
     display: flex;
     flex-direction: row;
@@ -1318,7 +1322,7 @@ textarea {
 }
 
 #howHolderFinal, #howHolder, #howHolder2 {
-    height: 67rem;
+    height: 60rem;
 }
 
 .faq-holder {
@@ -1522,37 +1526,25 @@ textarea {
 
 @media (min-width: 414px) {
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 61rem;
+        height: 54rem;
     }
 }
 
 @media (min-width: 455px) {
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 57rem;
-    }
-}
-
-@media (min-width: 500px) {
-    #howHolderFinal, #howHolder, #howHolder2 {
-        height: 56rem;
+        height: 50rem;
     }
 }
 
 @media (min-width: 550px) {
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 54rem;
-    }
-}
-
-@media (min-width: 550px) {
-    #howHolderFinal, #howHolder, #howHolder2 {
-        height: 51rem;
+        height: 47rem;
     }
 }
 
 @media (min-width: 680px) {
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 49rem;
+        height: 43rem;
     }
 }
 
@@ -1859,7 +1851,7 @@ textarea {
     }
 
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 42rem;
+        height: 36rem;
     }
 
     #horizontalCenter, #horizontalCenter2 {
@@ -2183,7 +2175,7 @@ textarea {
     }
 
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 31rem;
+        height: 29rem;
     }
 
     #mask {
@@ -2706,7 +2698,7 @@ textarea {
 
     /* Investment */
     #howHolderFinal, #howHolder, #howHolder2 {
-        height: 22rem;
+        height: 24rem;
     }
 
     #investTitle {
