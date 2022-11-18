@@ -417,7 +417,7 @@ a {
     left: auto;
     right: 0;
     bottom: auto;
-    top: 92.4%;
+    top: 104.4%;
     background-color: white;
     z-index: 3;
     border-bottom-right-radius: 20%;
@@ -1195,7 +1195,7 @@ textarea {
 }
 
 .how-holder-final {
-    margin-bottom: -6rem;
+    margin-bottom: 29rem;
 }
 
 .how-title {
@@ -1524,7 +1524,7 @@ textarea {
 }
 
 .last-mask {
-    height: 143vh;
+    height: 178vh;
 }
 
 .relative {
@@ -1549,11 +1549,19 @@ textarea {
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 47rem;
     }
+
+    .how-holder-final {
+        margin-bottom: 21rem;
+    }
 }
 
 @media (min-width: 680px) {
     #howHolderFinal, #howHolder, #howHolder2 {
         height: 43rem;
+    }
+
+    .how-holder-final {
+        margin-bottom: 15rem;
     }
 }
 
@@ -1822,7 +1830,7 @@ textarea {
     }
 
     .how-holder-final {
-        margin-bottom: 10rem;
+        margin-bottom: 38rem;
     }
 
     .mask {
@@ -1830,7 +1838,7 @@ textarea {
     }
 
     .last-mask {
-        height: 90vh;
+        height: 158vh;
     }
 
     /* Our Story */
@@ -2149,7 +2157,7 @@ textarea {
     }
 
     .how-holder-final {
-        margin-bottom: 9rem;
+        margin-bottom: 39rem;
     }
 
     .mask {
@@ -2157,8 +2165,8 @@ textarea {
     }
 
     .last-mask {
-        height: 105vh;
-    }    
+        height: 170vh;
+    }
 
     .card-info {
         padding-right: 0rem;
@@ -2376,7 +2384,7 @@ textarea {
     }
 
     .last-mask {
-        height: 140vh;
+        height: 192vh;
     }
 
     .how-header-sell {
@@ -2392,7 +2400,7 @@ textarea {
     }
 
     .how-holder-final {
-        margin-bottom: 16rem;
+        margin-bottom: 46rem;
     }
 
     /* Our Story */
@@ -2550,7 +2558,7 @@ textarea {
     }
 
     .bottom-section {
-        margin-bottom: 10rem
+        margin-bottom: 48rem;
     }
 
     .top-card {
@@ -2562,7 +2570,7 @@ textarea {
     }
 
     .last-mask {
-        height: 140vh;
+        height: 210vh;
     }
 
     .corking-review {
