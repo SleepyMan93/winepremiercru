@@ -57,6 +57,10 @@
     font-size: 0.9rem;
 }
 
+.hide-mobile {
+    display: none!important;
+}
+
 h1 {
     font-size: calc(2rem + 1.5vw);
 }
@@ -1887,6 +1891,10 @@ textarea {
 }
 
 @media (min-width: 992px) {
+    .hide-desktop {
+        display: none;
+    }
+
     h2 {
         font-size: calc(1.6rem + 1.5vw);
     }
@@ -1915,6 +1923,10 @@ textarea {
         width: 30%;
     }
 
+    .horizontal-center {
+        display: flex!important;
+    }
+
     /* Navbar */
     .navbar-collapse {
         width: 18%;
@@ -1931,6 +1943,10 @@ textarea {
 
     .wine-graphic {
         padding-right: 1rem;
+        width: 55%;
+        position: absolute;
+        z-index: -1;
+        top: 94px;
     }
 
     .sell-text {
@@ -2280,9 +2296,9 @@ textarea {
     }
 
     .wine-graphic {
-        width: 52%;
-        margin-left: 9rem;
-        top: 7px;
+        width: 54%;
+        margin-left: 6rem;
+        top: 65px;
     }
 
     .top-blob-white {
@@ -2418,6 +2434,13 @@ textarea {
 
     .how-title {
         margin-top: 56rem;
+    }
+
+    /* Index */
+    .wine-graphic {
+        width: 51%;
+        margin-left: 6rem;
+        top: 44px;
     }
 
     /* Investment */
@@ -2565,6 +2588,18 @@ textarea {
     
     .navbar-nav .nav-link {
         font-size: 1.3rem;
+    }
+
+    /* Index */
+    .wine-graphic {
+        width: 47%;
+        margin-left: 9rem;
+        top: 26px;
+    }
+
+    .top-blob-white {
+        margin-top: -3rem;
+        margin-bottom: 3rem;
     }
 
     /* Investment */
@@ -2716,6 +2751,18 @@ textarea {
     /* Footer */
     .about {
         padding-top: 5.5rem;
+    }
+}
+
+@media (min-width: 1800px) {
+    .home-info {
+        margin-bottom: 5rem;
+    }
+
+    .wine-graphic {
+        width: 45%;
+        margin-left: 13rem;
+        top: 0px;
     }
 }
 
